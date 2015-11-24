@@ -6,7 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('activity', function() {});
+  this.route('activity', function() {
+    this.route('strava');
+  });
 });
 
 export default Router;

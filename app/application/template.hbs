@@ -1,8 +1,19 @@
 <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-12">
         <h2>Runners Q</h2>
       </div>
     </div>
+    <div class="col-sm-2">
+      <div class="list-group sidebar-nav-fixed">
+        {{link-to "History" "activity.index" class="list-group-item"}}
+        {{link-to "Strava" "activity.strava" class="list-group-item"}}
+      </div>
+      <ul class="list-group sidebar-nav-fixed">
+        <li class="list-group-item">{{#link-to 'activity'}}History{{/link-to}}</li>
+      </ul>
+    </div>
+    <div class="col-sm-10">
+      {{outlet}}
+    </div>
 </div>
-{{outlet}}
