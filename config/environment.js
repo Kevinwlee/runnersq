@@ -12,11 +12,11 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    STRAVA_ACCESS_KEY: process.env.STRAVA_ACCESS_KEY    
   };
 
   if (environment === 'development') {
