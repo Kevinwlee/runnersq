@@ -6,17 +6,24 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    contentSecurityPolicy: {
+      'connect-src': "'self' https://www.strava.com",
+      'script-src': "'self' https://www.strava.com",
+      'style-src': "'self' 'unsafe-inline' https://fonts.googleapis.com",
+      'font-src': "'self' https://fonts.gstatic.com"
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       }
     },
-
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    STRAVA_ACCESS_TOKEN: process.env.STRAVA_ACCESS_TOKEN,
+    STRAVA_API_URL: 'https://www.strava.com/api/v3/athlete/activities'
   };
 
   if (environment === 'development') {
