@@ -48,4 +48,7 @@ You will need the following things properly installed on your computer.
 ### About me
 
 http://kevinwarrenlee.com
+
 http://tallythings.com
+
+Inspiration: https://github.com/craigotis/splits

@@ -1,34 +1,26 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
-      <h1>Lifetime Stats</h1>
+      <h1 class="text-danger">Lifetime Stats</h1>
     </div>
   </div>
 </div>
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
-      <h4>Total Miles</h4>
-      <p class="text-large">{{model.total.distance}} Miles</p>
-      <p class="text-large">{{model.total.count}} Activities</p>
+      {{dashboard-metric model=model.total title="Total Miles"}}
     </div>
 
     <div class="col-sm-2">
-      <h4>Runs</h4>
-      <p class="text-large">{{model.runs.distance}} Miles</p>
-      <p class="text-large">{{model.runs.count}} Runs</p>
+      {{dashboard-metric model=model.runs title="Runs"}}
     </div>
 
     <div class="col-sm-2">
-      <h4>Rides</h4>
-      <p class="text-large">{{model.rides.distance}} Miles</p>
-      <p class="text-large">{{model.rides.count}} Rides</p>
+      {{dashboard-metric model=model.rides title="Rides"}}
     </div>
 
     <div class="col-sm-2">
-      <h4>Swims</h4>
-      <p class="text-large">{{model.swims.distance}} Miles</p>
-      <p class="text-large">{{model.swims.count}} Swims</p>
+        {{dashboard-metric model=model.swims title="Swims"}}
     </div>
 
 
