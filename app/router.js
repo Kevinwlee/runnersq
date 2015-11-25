@@ -11,6 +11,9 @@ Router.map(function() {
     this.route('history');
     this.route('allTime');
   });
+  this.route('monthly');
+  this.route('yearly');
+  this.route('lifetime');
 });
 
 export default Router;

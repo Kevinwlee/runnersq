@@ -1,1 +1,12 @@
-{{outlet}}
+<div class="container">
+    <div class="col-sm-2">
+      <div class="list-group sidebar-nav-fixed">
+        {{link-to "Strava" "activity.strava" class="list-group-item"}}
+        {{link-to "All" "activity.allTime" class="list-group-item"}}
+        {{link-to "History" "activity.history" class="list-group-item"}}
+      </div>
+    </div>
+    <div class="col-sm-10">
+      {{outlet}}
+    </div>
+</div>
