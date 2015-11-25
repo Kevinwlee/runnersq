@@ -6,12 +6,14 @@ export default Ember.Service.extend({
   getActivities(){
     return new Ember.RSVP.Promise((resolve)=> {
       if (cache) {
+        console.log(cache);
         resolve(cache);
       } else {
         this.get('stravaProxy').getActivities().then((activities)=>{
           var archive = this.get('getArchive')()
           var strava = $.merge([], activities);
           cache = $.merge(strava, archive);
+          console.log(cache);
           resolve(cache);
         });
       }
@@ -378,6 +380,7 @@ export default Ember.Service.extend({
         },
         {
             "duration": 1800,
+            "distance": 0,
             "id": "/fitnessActivities/477444134",
             "source": "RunKeeper",
             "start_time": "2014-11-29T10:34:49-06:00",
@@ -385,6 +388,7 @@ export default Ember.Service.extend({
         },
         {
             "duration": 3463,
+            "distance": 0,
             "id": "/fitnessActivities/477443913",
             "source": "RunKeeper",
             "start_time": "2014-11-27T09:33:55-06:00",
@@ -560,6 +564,7 @@ export default Ember.Service.extend({
         },
         {
             "duration": 1200,
+            "distance": 0,
             "id": "/fitnessActivities/461998291",
             "source": "RunKeeper",
             "start_time": "2014-10-29T11:30:24-05:00",
