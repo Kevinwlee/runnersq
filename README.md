@@ -20,7 +20,7 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Run / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
@@ -29,7 +29,7 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
+### Run Tests
 
 * `ember test`
 * `ember test --server`

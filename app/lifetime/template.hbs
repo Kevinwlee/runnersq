@@ -5,5 +5,32 @@
     </div>
   </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+      <h4>Total Miles</h4>
+      <p class="text-large">{{model.total.distance}} Miles</p>
+      <p class="text-large">{{model.total.count}} Activities</p>
+    </div>
 
-{{outlet}}
+    <div class="col-sm-2">
+      <h4>Runs</h4>
+      <p class="text-large">{{model.runs.distance}} Miles</p>
+      <p class="text-large">{{model.runs.count}} Runs</p>
+    </div>
+
+    <div class="col-sm-2">
+      <h4>Rides</h4>
+      <p class="text-large">{{model.rides.distance}} Miles</p>
+      <p class="text-large">{{model.rides.count}} Rides</p>
+    </div>
+
+    <div class="col-sm-2">
+      <h4>Swims</h4>
+      <p class="text-large">{{model.swims.distance}} Miles</p>
+      <p class="text-large">{{model.swims.count}} Swims</p>
+    </div>
+
+
+  </div>
+</div>
