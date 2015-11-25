@@ -1,7 +1,21 @@
-# Runnersq
+# RunnersQ
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+RunnersQ is a little app that I've built to learn EmberJS and to play with data visualization.
+
+**Strava**
+
+The way this works right now is that I pull in my activities from Strava using the `strava-proxy`.  The proxy requires a `.env` file.  It should look something like this:
+
+```
+STRAVA_ACCESS_TOKEN=11bcYOURACCESSTOKENHERE1122
+```
+You can get your access token by creating an API App at http://labs.strava.com/developers/
+
+**History**
+
+I also have an array of old activites.  I'm a little lazy, so I just load all this data statically.  You can replace my data with your data in the Array that is returned from `getArchive` in the `history-store` service, or simply return an empty array `[]`.
 
 ## Prerequisites
 
