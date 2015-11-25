@@ -8,6 +8,8 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('activity', function() {
     this.route('strava');
+    this.route('history');
+    this.route('allTime');
   });
 });
 

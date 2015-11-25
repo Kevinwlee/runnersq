@@ -16,7 +16,7 @@ export default Ember.Service.extend({
           dataType: 'jsonp',
           data: {
             access_token: ENV.STRAVA_ACCESS_TOKEN,
-            per_page: 200
+            per_page: perPage
           }
         }).then((response)=>{
           var activities = [];

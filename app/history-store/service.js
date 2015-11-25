@@ -1,7 +1,23 @@
 import Ember from 'ember';
 
+var cache;
 export default Ember.Service.extend({
-  allItems() {
+  stravaProxy: Ember.inject.service(),
+  getActivities(){
+    return new Ember.RSVP.Promise((resolve)=> {
+      if (cache) {
+        resolve(cache);
+      } else {
+        this.get('stravaProxy').getActivities().then((activities)=>{
+          var archive = this.get('getArchive')()
+          var strava = $.merge([], activities);
+          cache = $.merge(strava, archive);
+          resolve(cache);
+        });
+      }
+    });
+  },
+  getArchive() {
       /*
       distance:meters,
       duration:seconds
@@ -5518,5 +5534,6 @@ export default Ember.Service.extend({
             "type": "RUN"
         }
     ];
+
   }
 });
