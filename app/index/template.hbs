@@ -4,5 +4,29 @@
       <h1 class="text-primary">This Week</h1>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <p class='week-title text-default'><small>{{model.summary.title}}</small></p>
+              <h2 class="text-default">{{model.summary.distance}}<small> mi</small></h2>
+              <p class='week-time'>{{model.summary.duration}}</p>
+
+            </td>
+            {{#each model.weekStat as |stat|}}
+            <td >
+              <p class='day-title'><small>{{stat.title}}</small></p>
+              <h3 class="{{stat.class}}">{{stat.distance}}<small> mi</small></h3>
+              <p class='day-time'><small>{{stat.duration}}</small>&nbsp;&nbsp;<small>{{stat.pace}}</small></p>
+
+            </td>
+            {{/each}}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 {{outlet}}

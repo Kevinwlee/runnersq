@@ -28,7 +28,7 @@ export default Ember.Service.extend({
               duration: value.moving_time,
               start_time:value.start_date_local,
               source:'Strava'
-            }
+            };
             activities.push(activity);
           });
           cachedActivities = activities;
