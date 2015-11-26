@@ -20,7 +20,7 @@ export default Ember.Service.extend({
           }
         }).then((response)=>{
           var activities = [];
-          $.each(response, function( index, value ) {
+          Ember.$.each(response, function( index, value ) {
             var activity = {
               id: value.id,
               type: value.type,

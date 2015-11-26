@@ -11,7 +11,7 @@ export default Ember.Service.extend({
         this.get('stravaProxy').getActivities().then((activities)=>{
           var archive = this.get('getArchive')()
           var strava = $.merge([], activities);
-          cache = $.merge(strava, archive);          
+          cache = $.merge(strava, archive);
           resolve(cache);
         });
       }
@@ -24,46 +24,6 @@ export default Ember.Service.extend({
       includes all data from Nike+ and RunKeeper
     */
     return [
-        {
-            "distance": 16576.2432,
-            "duration": 5429,
-            "id": "/fitnessActivities/540009405",
-            "source": "RunKeeper",
-            "start_time": "2015-03-31T04:35:00-05:00",
-            "type": "Run"
-        },
-        {
-            "distance": 11426.3424,
-            "duration": 3560,
-            "id": "/fitnessActivities/538070378",
-            "source": "RunKeeper",
-            "start_time": "2015-03-30T11:00:00-05:00",
-            "type": "Run"
-        },
-        {
-            "distance": 8529.5232,
-            "duration": 2991,
-            "id": "/fitnessActivities/538069952",
-            "source": "RunKeeper",
-            "start_time": "2015-03-28T15:30:00-05:00",
-            "type": "Run"
-        },
-        {
-            "distance": 9334.1952,
-            "duration": 3027,
-            "id": "/fitnessActivities/538069276",
-            "source": "RunKeeper",
-            "start_time": "2015-03-27T08:29:00-05:00",
-            "type": "Run"
-        },
-        {
-            "distance": 11426.3424,
-            "duration": 3374,
-            "id": "/fitnessActivities/538068611",
-            "source": "RunKeeper",
-            "start_time": "2015-03-25T11:00:00-05:00",
-            "type": "Run"
-        },
         {
             "distance": 11447.8578622327,
             "duration": 3484.76,

@@ -6,15 +6,19 @@ export default Ember.Route.extend({
     const totalMilesPromise = new Ember.RSVP.Promise((resolve)=> {
       this.get('historyStore').getActivities().then((allTime)=>{
         var activities = allTime.filter(function(value){
-          return  value.type != 'Walking';
+          return  value.type !== 'Walking';
         });
         var distance = activities.mapBy('distance');
         var totalMeters = distance.reduce( (prev, curr) => prev + curr );
         var totalMiles = totalMeters * 0.000621371;
+
+        var duration = activities.mapBy('duration');
+        var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         var stats = {
           distance: Math.round(totalMiles),
-          count: allTime.length
-        }
+          count: activities.length,
+          duration: Math.round(totalDuration)
+        };
         resolve(stats);
       });
     });
@@ -25,13 +29,18 @@ export default Ember.Route.extend({
     const runsPromise = new Ember.RSVP.Promise((resolve)=>{
       this.get('historyStore').getActivities().then((allTime)=>{
         var activities = allTime.filter(isRun);
+
         var distance = activities.mapBy('distance');
         var totalMeters = distance.reduce( (prev, curr) => prev + curr );
         var totalMiles = totalMeters * 0.000621371;
+
+        var duration = activities.mapBy('duration');
+        var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         var stats = {
           distance: Math.round(totalMiles),
-          count: activities.length
-        }
+          count: activities.length,
+          duration:Math.round(totalDuration)
+        };
         resolve(stats);
       });
     });
@@ -45,10 +54,15 @@ export default Ember.Route.extend({
         var distance = activities.mapBy('distance');
         var totalMeters = distance.reduce( (prev, curr) => prev + curr );
         var totalMiles = totalMeters * 0.000621371;
+
+        var duration = activities.mapBy('duration');
+        var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         var stats = {
           distance: Math.round(totalMiles),
-          count: activities.length
-        }
+          count: activities.length,
+          duration:Math.round(totalDuration)
+        };
+
         resolve(stats);
       });
     });
@@ -62,10 +76,14 @@ export default Ember.Route.extend({
         var distance = activities.mapBy('distance');
         var totalMeters = distance.reduce( (prev, curr) => prev + curr );
         var totalMiles = totalMeters * 0.000621371;
+
+        var duration = activities.mapBy('duration');
+        var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         var stats = {
           distance: Math.round(totalMiles),
-          count: activities.length
-        }
+          count: activities.length,
+          duration:Math.round(totalDuration)
+        };
         resolve(stats);
       });
     });

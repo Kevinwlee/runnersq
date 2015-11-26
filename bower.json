@@ -13,6 +13,7 @@
     "loader.js": "ember-cli/loader.js#3.2.1",
     "qunit": "~1.18.0",
     "bootstrap": "^3",
-    "bootswatch-dist": "slate"
+    "bootswatch-dist": "slate",
+    "moment": "momentjs#~2.10.6"
   }
 }
