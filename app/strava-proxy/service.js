@@ -26,7 +26,7 @@ export default Ember.Service.extend({
               type: value.type,
               distance: value.distance,
               duration: value.moving_time,
-              start_time:value.start_date_local,
+              start_time:moment(value.start_date_local).format(),
               source:'Strava'
             };
             activities.push(activity);
