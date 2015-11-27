@@ -11,10 +11,11 @@ export default Ember.Route.extend({
         let runs = activities.filter(function(value){
           return value.type === 'Run';
         });
+
         let grouped = _.groupBy(runs, function(run){
           return moment(run.start_time).format('MMM YY');
         });
-        console.log(grouped);
+
         let months = []
         //load old data
         for (var variable in grouped) {
@@ -36,8 +37,30 @@ export default Ember.Route.extend({
             months.push(metric);
           }
         }
+        let lastSix = months.slice(1,7);
+        let lastDistance = lastSix.mapBy('distance');
+        let lastMiles = lastDistance.reduce(function(prev, curr){
+          return Number(prev) + Number(curr);
+        });
 
-        resolve(months);
+        let previousSix = months.slice(7,13);
+        let previousDistance = previousSix.mapBy('distance');
+        let previousMiles = previousDistance.reduce(function(prev, curr){
+          return Number(prev) + Number (curr);
+        });
+
+        let allDistance = months.mapBy('distance');
+        let allMiles = allDistance.reduce(function(prev, curr){
+          return Number(prev) + Number(curr);
+        });
+
+        var stats ={
+          last:(lastMiles/6).toFixed(2),
+          previous: (previousMiles/6).toFixed(2),
+          all: (allMiles/months.length).toFixed(2),
+          months: months
+        }
+        resolve(stats);
       });
     });
     return summaryPromise;

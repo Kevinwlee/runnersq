@@ -1,11 +1,34 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-6">
       <h1  class="text-primary">Monthly Stats</h1>
     </div>
+    <div class="col-sm-2">
+      <p>
+        Six Month Average
+      </p>
+      <h2>{{model.last}}</h2>
+    </div>
+
+    <div class="col-sm-2">
+      <p>
+        Previous Six Average
+      </p>
+      <h2>{{model.previous}}</h2>
+
+    </div>
+
+    <div class="col-sm-2">
+      <p>
+        All Time Average
+      </p>
+      <h2>{{model.all}}</h2>
+
+    </div>
+
   </div>
   <div class="row">
-    {{#each model as |month|}}
+    {{#each model.months as |month|}}
     <div class="col-sm-12">
       <fieldset>
         <legend>{{month.title}}</legend>
