@@ -7,13 +7,47 @@ export default Ember.Route.extend({
     const numberOfWeeks = 32;
     const summaryPromise = new Ember.RSVP.Promise((resolve)=> {
       svc.getActivities().then((activities)=>{
-        let weeks = [];
+        //Filter to Runs
+        let runs = activities.filter(function(value){
+          return value.type === 'Run'
+        });
+
+        let weeklyStats = [];
         for (var i = 0; i < numberOfWeeks; i++) {
-          let summary = svc.summaryForWeek(i, activities);
-          weeks.push(Promise.resolve(summary));
+          let summary = svc.summaryForWeek(i, runs);
+          weeklyStats.push(Promise.resolve(summary));
         }
-        Promise.all(weeks).then((values)=>{
-          resolve(values);
+
+        Promise.all(weeklyStats).then((values)=>{
+
+          let firstFive = values.slice(0,5);
+          let firstDist = firstFive.mapBy("distance");
+          let sumDist = firstDist.reduce( function(prev, curr) {
+            return Number(prev) + Number(curr)
+          });
+
+          let firstAvgDist = (sumDist/5).toFixed(2);
+
+          let previousFive = values.slice(5,10);
+          let prevDist = previousFive.mapBy("distance");
+          let prevSumDist = prevDist.reduce( function(prev, curr) {
+            return Number(prev) + Number(curr)
+          });
+
+          let prevAvgDist = (prevSumDist/5).toFixed(2);
+
+          let allDist = values.mapBy("distance");
+          let allSumDist = allDist.reduce( function(prev, curr) {
+            return Number(prev) + Number(curr)
+          });
+          let allAvgDist = (allSumDist/numberOfWeeks).toFixed(2)
+          const stats = {
+            weeks:values,
+            recent:firstAvgDist,
+            past:prevAvgDist,
+            all:allAvgDist
+          }
+          resolve(stats);
         });
       });
     });

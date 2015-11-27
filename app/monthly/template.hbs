@@ -1,14 +1,29 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <h1 class="text-primary">Montly Stats</h1>
     </div>
-    <div class="col-sm-4">
-      Test
+    <div class="col-sm-2">
+      <p>
+        Five Week Average
+      </p>
+      <h2>{{model.recent}}</h2>
     </div>
 
-    <div class="col-sm-4">
-      Test 2
+    <div class="col-sm-2">
+      <p>
+        Previous Five Average
+      </p>
+      <h2>{{model.past}}</h2>
+
+    </div>
+
+    <div class="col-sm-2">
+      <p>
+        32 Week Average
+      </p>
+      <h2>{{model.all}}</h2>
+
     </div>
 
   </div>
@@ -16,7 +31,7 @@
     <div class="col-sm-12">
       <table class="table">
         <tbody>
-          {{#each model as |week|}}
+          {{#each model.weeks as |week|}}
           <tr>
             <td>
               <p class='week-title text-default'><small>{{week.title}}</small></p>
