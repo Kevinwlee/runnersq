@@ -14,10 +14,12 @@ export default Ember.Route.extend({
 
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
+        let d = moment.duration(totalDuration, 'seconds');
+        let durationDisplay = d.days() + 'd ' + d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
         var stats = {
-          distance: Math.round(totalMiles),
+          distance: totalMiles.toFixed(2),
           count: activities.length,
-          duration: Math.round(totalDuration)
+          duration: durationDisplay
         };
         resolve(stats);
       });
@@ -36,10 +38,13 @@ export default Ember.Route.extend({
 
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
+        let d = moment.duration(totalDuration, 'seconds');
+        let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+
         var stats = {
-          distance: Math.round(totalMiles),
+          distance:totalMiles.toFixed(2),
           count: activities.length,
-          duration:Math.round(totalDuration)
+          duration:durationDisplay
         };
         resolve(stats);
       });
@@ -57,10 +62,13 @@ export default Ember.Route.extend({
 
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
+        let d = moment.duration(totalDuration, 'seconds');
+        let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+
         var stats = {
-          distance: Math.round(totalMiles),
+          distance: totalMiles.toFixed(2),
           count: activities.length,
-          duration:Math.round(totalDuration)
+          duration:durationDisplay
         };
 
         resolve(stats);
@@ -79,10 +87,13 @@ export default Ember.Route.extend({
 
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
+        let d = moment.duration(totalDuration, 'seconds');
+        let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+
         var stats = {
-          distance: Math.round(totalMiles),
+          distance: totalMiles.toFixed(2),
           count: activities.length,
-          duration:Math.round(totalDuration)
+          duration: durationDisplay
         };
         resolve(stats);
       });

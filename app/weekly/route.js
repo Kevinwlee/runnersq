@@ -20,14 +20,14 @@ export default Ember.Route.extend({
 
         Promise.all(weeklyStats).then((values)=>{
 
-          let firstFive = values.slice(0,5);
+          let firstFive = values.slice(1,6);
           let firstDist = firstFive.mapBy("distance");
           let sumDist = firstDist.reduce( function(prev, curr) {
             return Number(prev) + Number(curr);
           });
           let firstAvgDist = (sumDist/5).toFixed(2);
 
-          let previousFive = values.slice(5,10);
+          let previousFive = values.slice(6,11);
           let prevDist = previousFive.mapBy("distance");
           let prevSumDist = prevDist.reduce( function(prev, curr) {
             return Number(prev) + Number(curr);

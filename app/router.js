@@ -9,7 +9,8 @@ Router.map(function() {
   this.route('activity', function() {
     this.route('strava');
     this.route('history');
-    this.route('allTime');
+    this.route('runkeeper');
+    this.route('nike');
   });
   this.route('weekly');
   this.route('yearly');

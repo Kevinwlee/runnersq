@@ -17,6 +17,24 @@ export default Ember.Service.extend({
       }
     });
   },
+  getNikeActivities(){
+    var archive = this.get('getArchive')();
+    return new Ember.RSVP.Promise((resolve)=> {
+      let nike = archive.filter(function(value){
+        return value.source === 'Nike+';
+      });
+      resolve(nike);
+    });
+  },
+  getRunKeeperActivities(){
+    var archive = this.get('getArchive')();
+    return new Ember.RSVP.Promise((resolve)=> {
+      let nike = archive.filter(function(value){
+        return value.source === 'RunKeeper';
+      });
+      resolve(nike);
+    });
+  },
   mapReduceSum(items, property) {
     let mappedItems = items.mapBy(property);
     let reducedItems = mappedItems.reduce( (prev, curr) => prev + curr );
