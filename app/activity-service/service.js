@@ -8,13 +8,20 @@ export default Ember.Service.extend({
       if (cache) {
         resolve(cache);
       } else {
-        this.get('stravaProxy').getActivities().then((activities)=>{
+        this.get('stravaProxy').getActivities(200).then((activities)=>{
           var archive = this.get('getArchive')();
           var strava = Ember.$.merge([], activities);
           cache = Ember.$.merge(strava, archive);
           resolve(cache);
         });
       }
+    });
+  },
+  getStravaActivities(amount){
+    return new Ember.RSVP.Promise((resolve)=>{
+      this.get('stravaProxy').getActivities(amount).then((activities)=>{
+        resolve(activities);
+      });
     });
   },
   getNikeActivities(){

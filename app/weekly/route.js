@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  historyStore: Ember.inject.service(),
+  activityService: Ember.inject.service(),
   model: function(){
-    const svc = this.get('historyStore');
+    const svc = this.get('activityService');
     const numberOfWeeks = 32;
     const summaryPromise = new Ember.RSVP.Promise((resolve)=> {
       svc.getActivities().then((activities)=>{

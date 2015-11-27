@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  stravaProxy: Ember.inject.service(),
+  activityService: Ember.inject.service(),
   model: function() {
-    return this.get('stravaProxy').getActivities(200);
+    return this.get('activityService').getStravaActivities(200);
   }
 });
