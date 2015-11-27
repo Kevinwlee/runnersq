@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1  class="text-primary">Monthly Stats</h1>
+    </div>
+  </div>
+  <div class="row">
+    {{#each model as |month|}}
+    <div class="col-sm-12">
+      <fieldset>
+        <legend>{{month.title}}</legend>
+
+        <h2>{{month.distance}} <small>m</small></h2>
+        <p>
+          {{month.duration}}
+        </p>
+        <p>
+          <span class="">{{month.number}} runs</span>
+        </p>
+      </fieldset>
+      <br/>
+      <br/>
+      <br/>
+    </div>
+    {{/each}}
+  </div>
+</div>
