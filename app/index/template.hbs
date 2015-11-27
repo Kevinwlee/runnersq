@@ -15,7 +15,7 @@
               <p class='week-time'>{{model.summary.duration}}</p>
 
             </td>
-            {{#each model.weekStat as |stat|}}
+            {{#each model.summary.weekStats as |stat|}}
             <td >
               <p class='day-title'><small>{{stat.title}}</small></p>
               <h3 class="{{stat.class}}">{{stat.distance}}<small> mi</small></h3>

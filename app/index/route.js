@@ -14,43 +14,40 @@ export default Ember.Route.extend({
   },
   historyStore: Ember.inject.service(),
   model: function(){
+    let iterator = 4;
 
     const mapReduce = this.get('mapReduceSum');
 
     const summaryPromise = new Ember.RSVP.Promise((resolve)=> {
       this.get('historyStore').getActivities().then((activities) => {
-        let summayActivities = activities.filter(function(value) {
-          return moment.utc(value.start_time).isAfter(moment().day(-1));
+
+        //Get Weekly Metric
+        let calc = ((7 * iterator) * -1);
+        let sunday = moment().day(calc -1) //-1 to get to Saturday
+        let saturday = moment().day(calc + 6);
+        debugger;
+        let thisWeeksActivities = activities.filter(function(value) {
+          return moment.utc(value.start_time).isBetween(sunday, saturday);
         });
 
-        let totalMeters = mapReduce(summayActivities, 'distance');
+        let totalMeters = mapReduce(thisWeeksActivities, 'distance');
         let totalMiles = totalMeters * 0.000621371;
 
-        let totalSeconds = mapReduce(summayActivities, 'duration');
+        let totalSeconds = mapReduce(thisWeeksActivities, 'duration');
         const durationForDisplay = this.get('durationForDisplay');
         let durationDisplay = durationForDisplay(totalSeconds);
-
+        let summaryTitle = calc === 0 ? "Current Week" : 'Week of ' + moment().day(calc).format('MMM Do');
         let summary = {
           distance: totalMiles.toFixed(2),
           duration: durationDisplay,
-          title: 'Current Week'
+          title: summaryTitle
         };
-        resolve(summary);
-      });
-    });
 
-    const weekPromise = new Ember.RSVP.Promise((resolve)=>{
-      this.get('historyStore').getActivities().then((activities)=>{
-        //Filter Activities
-        let thisWeeksActivities = activities.filter(function(value) {
-          return moment.utc(value.start_time).isAfter(moment().day(-1));
-        });
-
-        //get summary for each day
+        // Get the daily metrics
         let summaries = [];
-        let m = moment();
 
         let dailyActivities = {};
+
         for (var i = 0; i < thisWeeksActivities.length; i++) {
           let activity = thisWeeksActivities[i];
           let day = moment.utc(activity.start_time).day();
@@ -60,30 +57,29 @@ export default Ember.Route.extend({
             dailyActivities[day] = [activity];
           }
         }
-        console.log(dailyActivities);
-        for (var i = 0; i < 7; i++) {
-          //need to move this out!
-          // let day = moment.utc(value.start_time).day();
 
+        for (var i = 0; i < 7; i++) {
           let todaysActivities = dailyActivities[i] ? dailyActivities [i] : [];
 
           if (todaysActivities.length === 0) {
+            //No activity on this day
             let stat = {
               distance:0.0,
               duration:'rest day',
               pace: '',
-              title: m.day(i).format('dddd')
+              title: moment().day(i).format('dddd')
             };
 
             summaries.push(stat);
 
           } else {
+            //build the day
             let totalMeters = mapReduce(todaysActivities, 'distance');
             let totalMiles = totalMeters * 0.000621371;
 
             let totalSeconds = mapReduce(todaysActivities, 'duration');
             let d = moment.duration(totalSeconds, 'seconds');
-            let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm' + d.seconds() +'s';
+            let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
 
             let pace = d.asMinutes()/totalMiles;
             let dd = moment.duration(pace, 'minutes');
@@ -98,8 +94,8 @@ export default Ember.Route.extend({
               css = 'text-warning';
             }
 
-            let title = m.day(i).format('dddd');
-            
+            let title = moment().day(calc + i).format('dddd');
+
             let stat = {
               distance: totalMiles.toFixed(2),
               duration: durationDisplay,
@@ -111,14 +107,13 @@ export default Ember.Route.extend({
             summaries.push(stat);
           }
         }
-        //resolve the summary
-         resolve(summaries);
+        //add the weekly metrics to the summary metric.
+        summary['weekStats'] = summaries;
+        resolve(summary);
       });
-
     });
     return Ember.RSVP.hash({
-      summary:summaryPromise,
-      weekStat: weekPromise
+      summary: summaryPromise
     });
   }
 });
