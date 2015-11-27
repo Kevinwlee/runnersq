@@ -10,12 +10,12 @@
         <tbody>
           <tr>
             <td>
-              <p class='week-title text-default'><small>{{model.summary.title}}</small></p>
-              <h2 class="text-default">{{model.summary.distance}}<small> mi</small></h2>
-              <p class='week-time'>{{model.summary.duration}}</p>
+              <p class='week-title text-default'><small>{{model.title}}</small></p>
+              <h2 class="text-default">{{model.distance}}<small> mi</small></h2>
+              <p class='week-time'>{{model.duration}}</p>
 
             </td>
-            {{#each model.summary.weekStats as |stat|}}
+            {{#each model.weekStats as |stat|}}
             <td >
               <p class='day-title'><small>{{stat.title}}</small></p>
               <h3 class="{{stat.class}}">{{stat.distance}}<small> mi</small></h3>

@@ -1,8 +1,41 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-4">
       <h1 class="text-primary">Montly Stats</h1>
+    </div>
+    <div class="col-sm-4">
+      Test
+    </div>
+
+    <div class="col-sm-4">
+      Test 2
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <table class="table">
+        <tbody>
+          {{#each model as |week|}}
+          <tr>
+            <td>
+              <p class='week-title text-default'><small>{{week.title}}</small></p>
+              <h3 class="text-default">{{week.distance}}<small> mi</small></h3>
+              <p class='week-time'>{{week.duration}}</p>
+
+            </td>
+            {{#each week.weekStats as |stat|}}
+            <td >
+              <p class='day-title'><small>{{stat.title}}</small></p>
+              <h2 class="{{stat.class}}">{{stat.distance}}<small> mi</small></h2>
+              <p class='day-time'><small>{{stat.duration}}</small>&nbsp;&nbsp;<small>{{stat.pace}}</small></p>
+
+            </td>
+            {{/each}}
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
-{{outlet}}

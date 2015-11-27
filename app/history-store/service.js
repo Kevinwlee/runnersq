@@ -9,13 +9,139 @@ export default Ember.Service.extend({
         resolve(cache);
       } else {
         this.get('stravaProxy').getActivities().then((activities)=>{
-          var archive = this.get('getArchive')()
+          var archive = this.get('getArchive')();
           var strava = $.merge([], activities);
           cache = $.merge(strava, archive);
           resolve(cache);
         });
       }
     });
+  },
+  mapReduceSum(items, property) {
+    let mappedItems = items.mapBy(property);
+    let reducedItems = mappedItems.reduce( (prev, curr) => prev + curr );
+    return reducedItems;
+  },
+  durationForSummaryDisplay(totalSeconds) {
+    let d = moment.duration(totalSeconds, 'seconds');
+    let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm';
+    return durationDisplay;
+  },
+  durationForDayDisplay(totalSeconds) {
+    let d = moment.duration(totalSeconds, 'seconds');
+    let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+    return durationDisplay;
+  },
+  paceForDisplay(pace){
+    let dd = moment.duration(pace, 'minutes');
+    let paceDisplay = dd.minutes() + ':' + dd.seconds() +"/m";
+    return paceDisplay;
+  },
+  cssForMileage(totalMiles){
+    var css= 'text-default';
+    if (totalMiles > 10) {
+      css = 'text-success';
+    } else if (totalMiles > 6 ) {
+      css = 'text-primary';
+    } else if (totalMiles > 0){
+      css = 'text-warning';
+    }
+    return css;
+  },
+  summaryForWeek(week, activities) {
+
+    return new Ember.RSVP.Promise((resolve)=> {
+
+      //get functions? had some trouble iwht 'this', but I don't think I need these.
+      var mapReduce = this.get('mapReduceSum');
+      var durationForDisplay = this.get('durationForSummaryDisplay');
+      var durationForDayDisplay = this.get('durationForDayDisplay');
+      var paceForDisplay = this.get("paceForDisplay");
+      var cssForMileage = this.get("cssForMileage");
+
+      //Get Week Bounds
+      let calc = ((7 * week) * -1);
+      let sunday = moment().day(calc -1); //-1 to get to Saturday
+      let saturday = moment().day(calc + 6);
+
+      //Filter to this week
+      let thisWeeksActivities = activities.filter(function(value) {
+        return moment.utc(value.start_time).isBetween(sunday, saturday);
+      });
+
+      let totalMeters = mapReduce(thisWeeksActivities, 'distance');
+      let totalMiles = totalMeters * 0.000621371;
+
+      let totalSeconds = mapReduce(thisWeeksActivities, 'duration');
+      let durationDisplay = durationForDisplay(totalSeconds);
+
+      let summaryTitle = calc === 0 ? "Current Week" : 'Week of ' + moment().day(calc).format('MMM Do');
+      let summary = {
+        distance: totalMiles.toFixed(2),
+        duration: durationDisplay,
+        title: summaryTitle
+      };
+
+      // Get the daily metrics
+      let summaries = [];
+      let dailyActivities = {};
+
+      for (var a = 0; a < thisWeeksActivities.length; a++) {
+        let activity = thisWeeksActivities[a];
+        let day = moment.utc(activity.start_time).day();
+        if (dailyActivities[day]) {
+          dailyActivities[day].push(activity);
+        } else {
+          dailyActivities[day] = [activity];
+        }
+      }
+
+      for (var i = 0; i < 7; i++) {
+        let todaysActivities = dailyActivities[i] ? dailyActivities [i] : [];
+
+        if (todaysActivities.length === 0) {
+          //No activity on this day
+          let stat = {
+            distance:0.0,
+            duration:'rest day',
+            pace: '',
+            title: moment().day(i).format('dddd')
+          };
+
+          summaries.push(stat);
+
+        } else {
+          //build the day
+          let totalMeters = mapReduce(todaysActivities, 'distance');
+          let totalMiles = (totalMeters * 0.000621371).toFixed(1);
+
+          let totalSeconds = mapReduce(todaysActivities, 'duration');
+          let durationDisplay = durationForDayDisplay(totalSeconds);
+
+          let d = moment.duration(totalSeconds, 'seconds');
+          let pace = d.asMinutes()/totalMiles;
+          let paceDisplay = paceForDisplay(pace);
+
+          var css = cssForMileage(totalMiles);
+
+          let title = moment().day(calc + i).format('dddd');
+
+          let stat = {
+            distance: totalMiles,
+            duration: durationDisplay,
+            pace: paceDisplay,
+            title: title,
+            class: css
+          };
+
+          summaries.push(stat);
+        }
+      }
+      //add the weekly metrics to the summary metric.
+      summary['weekStats'] = summaries;
+      resolve(summary);
+    }); //end of promise
+
   },
   getArchive() {
       /*
