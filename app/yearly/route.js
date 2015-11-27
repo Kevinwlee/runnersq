@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   activityService: Ember.inject.service(),
   model(){
     const svc = this.get('activityService');
-    const numberOfWeeks = 32;
+    
     const summaryPromise = new Ember.RSVP.Promise((resolve)=> {
       svc.getActivities().then((activities)=>{
         //Filter to Runs
@@ -15,7 +15,7 @@ export default Ember.Route.extend({
           return moment(run.start_time).year();
         });
         console.log(grouped);
-        let years = []
+        let years = [];
         //load old data
         var five = {
           year:2005,
@@ -50,7 +50,7 @@ export default Ember.Route.extend({
           if (grouped.hasOwnProperty(variable)) {
             //create metric
             let totalMeters = svc.mapReduceSum(grouped[variable], 'distance');
-            let totalMiles = totalMeters * 0.000621371
+            let totalMiles = totalMeters * 0.000621371;
 
             let totalSeconds = svc.mapReduceSum(grouped[variable], 'duration');
             let d = moment.duration(totalSeconds, 'seconds');

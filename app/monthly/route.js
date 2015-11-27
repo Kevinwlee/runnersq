@@ -3,8 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   activityService: Ember.inject.service(),
   model(){
-    const svc = this.get('activityService');
-    const numberOfWeeks = 32;
+    const svc = this.get('activityService');    
     const summaryPromise = new Ember.RSVP.Promise((resolve)=> {
       svc.getActivities().then((activities)=>{
         //Filter to Runs
@@ -16,13 +15,13 @@ export default Ember.Route.extend({
           return moment(run.start_time).format('MMM YY');
         });
 
-        let months = []
+        let months = [];
         //load old data
         for (var variable in grouped) {
           if (grouped.hasOwnProperty(variable)) {
             //create metric
             let totalMeters = svc.mapReduceSum(grouped[variable], 'distance');
-            let totalMiles = totalMeters * 0.000621371
+            let totalMiles = totalMeters * 0.000621371;
 
             let totalSeconds = svc.mapReduceSum(grouped[variable], 'duration');
             let d = moment.duration(totalSeconds, 'seconds');
@@ -54,12 +53,12 @@ export default Ember.Route.extend({
           return Number(prev) + Number(curr);
         });
 
-        var stats ={
+        var stats = {
           last:(lastMiles/6).toFixed(2),
           previous: (previousMiles/6).toFixed(2),
           all: (allMiles/months.length).toFixed(2),
           months: months
-        }
+        };
         resolve(stats);
       });
     });
