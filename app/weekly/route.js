@@ -15,10 +15,10 @@ export default Ember.Route.extend({
         let weeklyStats = [];
         for (var i = 0; i < numberOfWeeks; i++) {
           let summary = svc.summaryForWeek(i, runs);
-          weeklyStats.push(Promise.resolve(summary));
+          weeklyStats.push(Ember.RSVP.Promise.resolve(summary));
         }
 
-        Promise.all(weeklyStats).then((values)=>{
+        Ember.RSVP.Promise.all(weeklyStats).then((values)=>{
 
           let firstFive = values.slice(1,6);
           let firstDist = firstFive.mapBy("distance");

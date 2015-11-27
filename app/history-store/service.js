@@ -10,8 +10,8 @@ export default Ember.Service.extend({
       } else {
         this.get('stravaProxy').getActivities().then((activities)=>{
           var archive = this.get('getArchive')();
-          var strava = $.merge([], activities);
-          cache = $.merge(strava, archive);
+          var strava = Ember.$.merge([], activities);
+          cache = Ember.$.merge(strava, archive);
           resolve(cache);
         });
       }
