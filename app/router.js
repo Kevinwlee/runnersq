@@ -11,7 +11,7 @@ Router.map(function() {
     this.route('history');
     this.route('allTime');
   });
-  this.route('monthly');
+  this.route('weekly');
   this.route('yearly');
   this.route('lifetime');
 });
