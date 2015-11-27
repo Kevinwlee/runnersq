@@ -22,23 +22,30 @@ export default Ember.Route.extend({
           distance:45.7,
           duration:"0d 8h 57m",
           number:9
-        }
+        };
         var six = {
           year:2006,
           distance:663.71,
           duration:"3d 14h 00m",
           number:110
 
-        }
+        };
         var seven = {
           year:2007,
           distance:333.53,
           duration:"2d 0h 55m",
           number:74
-        }
+        };
+        var eight = {
+          year: 2008,
+          distance: 170.72,
+          duration: '1d 03h 57m',
+          number: 39
+        };
         years.push(five);
         years.push(six);
-        years.push(seven)
+        years.push(seven);
+        years.push(eight);
         for (var variable in grouped) {
           if (grouped.hasOwnProperty(variable)) {
             //create metric

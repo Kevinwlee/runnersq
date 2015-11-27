@@ -3462,22 +3462,6 @@ export default Ember.Service.extend({
             "source": "Nike+",
             "start_time": "2009-01-02T04:56:13-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 6994.900226593018,
-            "duration": 2282.109,
-            "id": "313124898",
-            "source": "Nike+",
-            "start_time": "2008-12-31T05:16:10-06:00",
-            "type": "Run"
-        },
-        {
-            "distance": 7112.100124359131,
-            "duration": 2397.599,
-            "id": "312319383",
-            "source": "Nike+",
-            "start_time": "2008-12-29T05:11:45-06:00",
-            "type": "Run"
         }
     ];
 

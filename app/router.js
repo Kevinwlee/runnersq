@@ -16,6 +16,7 @@ Router.map(function() {
   this.route('yearly');
   this.route('lifetime');
   this.route('monthly');
+  this.route('week');
 });
 
 export default Router;
