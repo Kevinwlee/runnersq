@@ -39,7 +39,7 @@ export default Ember.Route.extend({
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         let d = moment.duration(totalDuration, 'seconds');
-        let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+        let durationDisplay = d.days() + 'd ' + d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
 
         var stats = {
           distance:totalMiles.toFixed(2),
@@ -63,7 +63,7 @@ export default Ember.Route.extend({
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         let d = moment.duration(totalDuration, 'seconds');
-        let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+        let durationDisplay = d.days() + 'd ' + d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
 
         var stats = {
           distance: totalMiles.toFixed(2),
@@ -88,7 +88,7 @@ export default Ember.Route.extend({
         var duration = activities.mapBy('duration');
         var totalDuration = duration.reduce( (prev, curr) => prev + curr );
         let d = moment.duration(totalDuration, 'seconds');
-        let durationDisplay = d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
+        let durationDisplay = d.days() + 'd ' + d.hours() + 'h ' + d.minutes() + 'm ' + d.seconds() +'s';
 
         var stats = {
           distance: totalMiles.toFixed(2),

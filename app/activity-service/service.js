@@ -608,30 +608,6 @@ export default Ember.Service.extend({
             "type": "Swim"
         },
         {
-            "distance": 974.051882011986,
-            "duration": 1553.61077064276,
-            "id": "/fitnessActivities/463226082",
-            "source": "RunKeeper",
-            "start_time": "2014-11-01T12:42:56-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2722.19476201483,
-            "duration": 3026.45571839809,
-            "id": "/fitnessActivities/463226080",
-            "source": "RunKeeper",
-            "start_time": "2014-10-31T18:55:03-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 996.774709741659,
-            "duration": 1282.04088199139,
-            "id": "/fitnessActivities/463226076",
-            "source": "RunKeeper",
-            "start_time": "2014-10-30T14:26:18-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 22988.1847909799,
             "duration": 2598.26290350001,
             "id": "/fitnessActivities/462186603",
@@ -648,44 +624,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1320.953718685,
-            "duration": 2088.52696037292,
-            "id": "/fitnessActivities/461998287",
-            "source": "RunKeeper",
-            "start_time": "2014-10-29T20:56:14-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1311.10716000214,
-            "duration": 1515.60189455748,
-            "id": "/fitnessActivities/461998283",
-            "source": "RunKeeper",
-            "start_time": "2014-10-29T17:58:35-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 976.324164784953,
-            "duration": 1167.70744013786,
-            "id": "/fitnessActivities/461998280",
-            "source": "RunKeeper",
-            "start_time": "2014-10-29T14:31:37-05:00",
-            "type": "Walking"
-        },
-        {
             "duration": 1200,
             "distance": 0,
             "id": "/fitnessActivities/461998291",
             "source": "RunKeeper",
             "start_time": "2014-10-29T11:30:24-05:00",
             "type": "Swim"
-        },
-        {
-            "distance": 1729.20719022812,
-            "duration": 2482.30696511269,
-            "id": "/fitnessActivities/461998276",
-            "source": "RunKeeper",
-            "start_time": "2014-10-29T07:20:16-05:00",
-            "type": "Walking"
         },
         {
             "distance": 8512.90802058803,
@@ -696,68 +640,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 997.532137332648,
-            "duration": 921.83157491684,
-            "id": "/fitnessActivities/460399602",
-            "source": "RunKeeper",
-            "start_time": "2014-10-27T10:06:42-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1181.587041943,
-            "duration": 1524.77502524853,
-            "id": "/fitnessActivities/460399597",
-            "source": "RunKeeper",
-            "start_time": "2014-10-27T07:32:56-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1067.21547570365,
-            "duration": 1209.30674600601,
-            "id": "/fitnessActivities/460256133",
-            "source": "RunKeeper",
-            "start_time": "2014-10-24T07:35:41-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8449.056,
             "duration": 2564,
             "id": "/fitnessActivities/457743364",
             "source": "RunKeeper",
             "start_time": "2014-10-22T12:37:53-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 1651.94957594723,
-            "duration": 2113.86714321375,
-            "id": "/fitnessActivities/457743361",
-            "source": "RunKeeper",
-            "start_time": "2014-10-22T08:40:21-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 936.93793005352,
-            "duration": 893.644869327545,
-            "id": "/fitnessActivities/457743359",
-            "source": "RunKeeper",
-            "start_time": "2014-10-20T14:02:54-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 908.155681595934,
-            "duration": 785.479490995407,
-            "id": "/fitnessActivities/457743357",
-            "source": "RunKeeper",
-            "start_time": "2014-10-20T10:00:08-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2001.12369539321,
-            "duration": 2749.83904898167,
-            "id": "/fitnessActivities/456237034",
-            "source": "RunKeeper",
-            "start_time": "2014-10-19T17:31:47-05:00",
-            "type": "Walking"
         },
         {
             "distance": 4253.35000114602,
@@ -792,46 +680,6 @@ export default Ember.Service.extend({
             "type": "Swim"
         },
         {
-            "distance": 1375.48850523621,
-            "duration": 1270.84044587612,
-            "id": "/fitnessActivities/454903616",
-            "source": "RunKeeper",
-            "start_time": "2014-10-17T08:40:53-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 5092.18569421974,
-            "duration": 6754.33290088177,
-            "id": "/fitnessActivities/454903611",
-            "source": "RunKeeper",
-            "start_time": "2014-10-16T16:30:40-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1725.42005227318,
-            "duration": 1212.61635971069,
-            "id": "/fitnessActivities/454903609",
-            "source": "RunKeeper",
-            "start_time": "2014-10-16T11:40:26-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 973.294454420997,
-            "duration": 1468.92966336012,
-            "id": "/fitnessActivities/454903607",
-            "source": "RunKeeper",
-            "start_time": "2014-10-16T10:01:03-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1236.12182849421,
-            "duration": 1287.91546112299,
-            "id": "/fitnessActivities/454903604",
-            "source": "RunKeeper",
-            "start_time": "2014-10-16T07:34:59-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 12466.4683671479,
             "duration": 3816.33497808335,
             "id": "/fitnessActivities/453932374",
@@ -856,52 +704,12 @@ export default Ember.Service.extend({
             "type": "Ride"
         },
         {
-            "distance": 2735.82845865264,
-            "duration": 3766.41245532036,
-            "id": "/fitnessActivities/453120576",
-            "source": "RunKeeper",
-            "start_time": "2014-10-13T18:19:18-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1281.56748395356,
-            "duration": 1235.12392365933,
-            "id": "/fitnessActivities/453120571",
-            "source": "RunKeeper",
-            "start_time": "2014-10-13T14:56:31-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 806.660384403394,
-            "duration": 911.489702343941,
-            "id": "/fitnessActivities/453120568",
-            "source": "RunKeeper",
-            "start_time": "2014-10-13T12:46:48-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1595.89993421404,
-            "duration": 2552.83730047941,
-            "id": "/fitnessActivities/452184483",
-            "source": "RunKeeper",
-            "start_time": "2014-10-12T16:00:13-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 20271.0257944038,
             "duration": 6550.70809316667,
             "id": "/fitnessActivities/452097795",
             "source": "RunKeeper",
             "start_time": "2014-10-12T11:29:43-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 632.452038475901,
-            "duration": 756.19573289156,
-            "id": "/fitnessActivities/452026811",
-            "source": "RunKeeper",
-            "start_time": "2014-10-12T06:11:45-05:00",
-            "type": "Walking"
         },
         {
             "distance": 9616.96120463518,
@@ -936,14 +744,6 @@ export default Ember.Service.extend({
             "type": "Ride"
         },
         {
-            "distance": 6180.60914247108,
-            "duration": 4874.59613978863,
-            "id": "/fitnessActivities/449186997",
-            "source": "RunKeeper",
-            "start_time": "2014-10-07T10:21:23-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 19732.7279369636,
             "duration": 6614.596312625,
             "id": "/fitnessActivities/448701757",
@@ -952,52 +752,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 968.749888875062,
-            "duration": 1564.44874602556,
-            "id": "/fitnessActivities/448642124",
-            "source": "RunKeeper",
-            "start_time": "2014-10-06T07:27:44-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1288.38433227246,
-            "duration": 2030.64456999302,
-            "id": "/fitnessActivities/448642120",
-            "source": "RunKeeper",
-            "start_time": "2014-10-05T18:15:56-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 924.061661006705,
-            "duration": 1239.03526753187,
-            "id": "/fitnessActivities/448642118",
-            "source": "RunKeeper",
-            "start_time": "2014-10-04T14:46:44-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1339.88940845972,
-            "duration": 2226.96001178026,
-            "id": "/fitnessActivities/448642113",
-            "source": "RunKeeper",
-            "start_time": "2014-10-04T11:14:00-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 67024.7942686154,
             "duration": 7947.293,
             "id": "/fitnessActivities/447171909",
             "source": "RunKeeper",
             "start_time": "2014-10-04T06:53:49-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 537.016162011274,
-            "duration": 761.589093804359,
-            "id": "/fitnessActivities/447072165",
-            "source": "RunKeeper",
-            "start_time": "2014-10-03T20:53:00-05:00",
-            "type": "Walking"
         },
         {
             "distance": 1609.344,
@@ -1024,14 +784,6 @@ export default Ember.Service.extend({
             "type": "Ride"
         },
         {
-            "distance": 1467.13724374589,
-            "duration": 1364.78014338017,
-            "id": "/fitnessActivities/446125615",
-            "source": "RunKeeper",
-            "start_time": "2014-10-01T13:52:22-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8803.86188426509,
             "duration": 2690.359,
             "id": "/fitnessActivities/445307480",
@@ -1046,38 +798,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-09-30T11:11:01-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 2825.20491438935,
-            "duration": 1614.92053884268,
-            "id": "/fitnessActivities/444805695",
-            "source": "RunKeeper",
-            "start_time": "2014-09-29T21:05:19-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2555.56069199723,
-            "duration": 2111.82619380951,
-            "id": "/fitnessActivities/444805687",
-            "source": "RunKeeper",
-            "start_time": "2014-09-29T11:15:22-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1077.81946197749,
-            "duration": 958.407745420933,
-            "id": "/fitnessActivities/444805672",
-            "source": "RunKeeper",
-            "start_time": "2014-09-29T07:42:48-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 6211.66367370163,
-            "duration": 9300.68842941523,
-            "id": "/fitnessActivities/444805664",
-            "source": "RunKeeper",
-            "start_time": "2014-09-28T12:01:53-05:00",
-            "type": "Walking"
         },
         {
             "distance": 11220.3599085532,
@@ -1104,14 +824,6 @@ export default Ember.Service.extend({
             "type": "Swim"
         },
         {
-            "distance": 1686.03381754174,
-            "duration": 1155.24775749445,
-            "id": "/fitnessActivities/442732865",
-            "source": "RunKeeper",
-            "start_time": "2014-09-26T09:47:37-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8449.056,
             "duration": 2821,
             "id": "/fitnessActivities/441767102",
@@ -1120,204 +832,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1533.03344416194,
-            "duration": 2160.40142953396,
-            "id": "/fitnessActivities/441766540",
-            "source": "RunKeeper",
-            "start_time": "2014-09-23T19:51:49-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1533.79087175293,
-            "duration": 1884.96571308374,
-            "id": "/fitnessActivities/441766535",
-            "source": "RunKeeper",
-            "start_time": "2014-09-23T10:35:11-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2091.25757872091,
-            "duration": 3380.67567574978,
-            "id": "/fitnessActivities/441766530",
-            "source": "RunKeeper",
-            "start_time": "2014-09-23T08:09:00-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 819.536653450209,
-            "duration": 889.403864324093,
-            "id": "/fitnessActivities/441766521",
-            "source": "RunKeeper",
-            "start_time": "2014-09-23T07:26:25-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1174.7701936241,
-            "duration": 1876.30906909704,
-            "id": "/fitnessActivities/441766517",
-            "source": "RunKeeper",
-            "start_time": "2014-09-22T14:00:32-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 810.44752235834,
-            "duration": 1306.08111715317,
-            "id": "/fitnessActivities/441766514",
-            "source": "RunKeeper",
-            "start_time": "2014-09-22T12:09:07-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 821.808936223176,
-            "duration": 1132.41159003973,
-            "id": "/fitnessActivities/441766511",
-            "source": "RunKeeper",
-            "start_time": "2014-09-22T10:24:02-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1152.04736589442,
-            "duration": 1589.52621787787,
-            "id": "/fitnessActivities/441766508",
-            "source": "RunKeeper",
-            "start_time": "2014-09-22T08:41:10-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 846.804046725817,
-            "duration": 1272.86514163017,
-            "id": "/fitnessActivities/441766473",
-            "source": "RunKeeper",
-            "start_time": "2014-09-22T07:45:40-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2156.39635154597,
-            "duration": 2877.18942677975,
-            "id": "/fitnessActivities/441766470",
-            "source": "RunKeeper",
-            "start_time": "2014-09-21T14:21:27-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4166.60917803105,
-            "duration": 5778.59837043285,
-            "id": "/fitnessActivities/441766467",
-            "source": "RunKeeper",
-            "start_time": "2014-09-20T22:56:39-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2325.30270433655,
-            "duration": 2377.54215526581,
-            "id": "/fitnessActivities/441766462",
-            "source": "RunKeeper",
-            "start_time": "2014-09-20T22:15:01-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1112.66113116299,
-            "duration": 1372.36120963097,
-            "id": "/fitnessActivities/441766460",
-            "source": "RunKeeper",
-            "start_time": "2014-09-20T15:12:18-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1349.73596714258,
-            "duration": 1858.10548222065,
-            "id": "/fitnessActivities/441766455",
-            "source": "RunKeeper",
-            "start_time": "2014-09-20T14:05:09-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 808.932667176362,
-            "duration": 1216.50612801313,
-            "id": "/fitnessActivities/441766452",
-            "source": "RunKeeper",
-            "start_time": "2014-09-20T12:51:38-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1345.94882918764,
-            "duration": 2059.96768540144,
-            "id": "/fitnessActivities/441766448",
-            "source": "RunKeeper",
-            "start_time": "2014-09-20T10:31:42-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 693.046245755029,
-            "duration": 890.083763301373,
-            "id": "/fitnessActivities/441766444",
-            "source": "RunKeeper",
-            "start_time": "2014-09-19T17:27:01-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 977.081592375942,
-            "duration": 1575.5376546979,
-            "id": "/fitnessActivities/441766443",
-            "source": "RunKeeper",
-            "start_time": "2014-09-19T15:31:17-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 490.055651369949,
-            "duration": 789.745815992355,
-            "id": "/fitnessActivities/441766438",
-            "source": "RunKeeper",
-            "start_time": "2014-09-19T15:01:51-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2020.81681275893,
-            "duration": 2125.01434630156,
-            "id": "/fitnessActivities/441766434",
-            "source": "RunKeeper",
-            "start_time": "2014-09-19T14:04:11-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3010.01724659069,
-            "duration": 3478.12321817875,
-            "id": "/fitnessActivities/441766432",
-            "source": "RunKeeper",
-            "start_time": "2014-09-19T10:17:41-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1080.84917234145,
-            "duration": 1394.09933447838,
-            "id": "/fitnessActivities/441766426",
-            "source": "RunKeeper",
-            "start_time": "2014-09-18T21:01:43-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 693.046245755029,
-            "duration": 820.470294713974,
-            "id": "/fitnessActivities/441766424",
-            "source": "RunKeeper",
-            "start_time": "2014-09-18T19:05:00-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 0,
             "duration": 3086,
             "id": "/fitnessActivities/436063603",
             "source": "RunKeeper",
             "start_time": "2014-09-16T19:10:30-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 1317.92400832104,
-            "duration": 1994.45085960627,
-            "id": "/fitnessActivities/435359389",
-            "source": "RunKeeper",
-            "start_time": "2014-09-15T07:26:00-05:00",
-            "type": "Walking"
         },
         {
             "distance": 1995.5865753479,
@@ -1368,14 +888,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 846.046619134828,
-            "duration": 943.215340316296,
-            "id": "/fitnessActivities/432795130",
-            "source": "RunKeeper",
-            "start_time": "2014-09-11T18:43:32-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 28841.5426213326,
             "duration": 3306.315,
             "id": "/fitnessActivities/432517536",
@@ -1398,22 +910,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-09-10T05:58:18-05:00",
             "type": "Swim"
-        },
-        {
-            "distance": 0,
-            "duration": 1850,
-            "id": "/fitnessActivities/431615924",
-            "source": "RunKeeper",
-            "start_time": "2014-09-09T05:59:03-05:00",
-            "type": "Spinning"
-        },
-        {
-            "distance": 3630.35044361077,
-            "duration": 3150.43209916353,
-            "id": "/fitnessActivities/430931151",
-            "source": "RunKeeper",
-            "start_time": "2014-09-08T10:56:36-05:00",
-            "type": "Walking"
         },
         {
             "distance": 1609.344,
@@ -1456,28 +952,12 @@ export default Ember.Service.extend({
             "type": "Swim"
         },
         {
-            "distance": 1305.80516686521,
-            "duration": 965.332001030445,
-            "id": "/fitnessActivities/428229472",
-            "source": "RunKeeper",
-            "start_time": "2014-09-04T13:06:38-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 22902.1889478238,
             "duration": 2657.006,
             "id": "/fitnessActivities/427776859",
             "source": "RunKeeper",
             "start_time": "2014-09-04T10:23:15-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 1677.70211404086,
-            "duration": 1597.40023452044,
-            "id": "/fitnessActivities/427716148",
-            "source": "RunKeeper",
-            "start_time": "2014-09-03T20:44:00-05:00",
-            "type": "Walking"
         },
         {
             "distance": 7277.65247178889,
@@ -1520,30 +1000,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 705.165087210854,
-            "duration": 938.200202763081,
-            "id": "/fitnessActivities/425103010",
-            "source": "RunKeeper",
-            "start_time": "2014-08-29T08:51:20-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 677.897693935247,
-            "duration": 891.585095465183,
-            "id": "/fitnessActivities/425103006",
-            "source": "RunKeeper",
-            "start_time": "2014-08-28T19:08:15-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1942.04434329606,
-            "duration": 3242.80557692051,
-            "id": "/fitnessActivities/425103000",
-            "source": "RunKeeper",
-            "start_time": "2014-08-27T13:39:07-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 4628.02774767705,
             "duration": 1754.625,
             "id": "/fitnessActivities/422340623",
@@ -1560,28 +1016,12 @@ export default Ember.Service.extend({
             "type": "Swim"
         },
         {
-            "distance": 6213.9359564746,
-            "duration": 8028.8497171402,
-            "id": "/fitnessActivities/421188478",
-            "source": "RunKeeper",
-            "start_time": "2014-08-24T13:49:02-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8416.8691506958,
             "duration": 2506,
             "id": "/fitnessActivities/419977607",
             "source": "RunKeeper",
             "start_time": "2014-08-23T20:00:53-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 584.734100243587,
-            "duration": 751.130222320557,
-            "id": "/fitnessActivities/419977115",
-            "source": "RunKeeper",
-            "start_time": "2014-08-22T15:03:05-05:00",
-            "type": "Walking"
         },
         {
             "distance": 6282.225086944,
@@ -1606,14 +1046,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-08-19T11:36:16-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 560.496417331936,
-            "duration": 833.033039391041,
-            "id": "/fitnessActivities/417087276",
-            "source": "RunKeeper",
-            "start_time": "2014-08-19T09:03:33-05:00",
-            "type": "Walking"
         },
         {
             "distance": 1207.008,
@@ -1646,14 +1078,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-08-16T06:40:36-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 1544.39485802678,
-            "duration": 1667.64448094368,
-            "id": "/fitnessActivities/414881188",
-            "source": "RunKeeper",
-            "start_time": "2014-08-15T19:36:23-05:00",
-            "type": "Walking"
         },
         {
             "distance": 0,
@@ -1696,14 +1120,6 @@ export default Ember.Service.extend({
             "type": "Ride"
         },
         {
-            "distance": 1392.90933982896,
-            "duration": 1010.37003850937,
-            "id": "/fitnessActivities/410287489",
-            "source": "RunKeeper",
-            "start_time": "2014-08-08T15:41:33-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8221.84261036506,
             "duration": 2518.575,
             "id": "/fitnessActivities/409761921",
@@ -1718,14 +1134,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-08-08T11:01:58-05:00",
             "type": "Swim"
-        },
-        {
-            "distance": 1300.50317372829,
-            "duration": 1139.49841356278,
-            "id": "/fitnessActivities/409199223",
-            "source": "RunKeeper",
-            "start_time": "2014-08-07T13:51:06-05:00",
-            "type": "Walking"
         },
         {
             "distance": 23064.4370315435,
@@ -1824,14 +1232,6 @@ export default Ember.Service.extend({
             "type": "Swim"
         },
         {
-            "distance": 643.813452340737,
-            "duration": 970.74955958128,
-            "id": "/fitnessActivities/403351335",
-            "source": "RunKeeper",
-            "start_time": "2014-07-29T16:35:53-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 22856.3088762903,
             "duration": 2783.209,
             "id": "/fitnessActivities/402856039",
@@ -1880,14 +1280,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3415.99843536085,
-            "duration": 1579.56995093823,
-            "id": "/fitnessActivities/400119811",
-            "source": "RunKeeper",
-            "start_time": "2014-07-25T06:13:20-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 22937.2858942066,
             "duration": 2758.936,
             "id": "/fitnessActivities/399659202",
@@ -1902,14 +1294,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-07-23T19:17:55-05:00",
             "type": "Swim"
-        },
-        {
-            "distance": 1695.8803762246,
-            "duration": 1871.78108626604,
-            "id": "/fitnessActivities/399152321",
-            "source": "RunKeeper",
-            "start_time": "2014-07-23T14:59:42-05:00",
-            "type": "Walking"
         },
         {
             "distance": 6773.9296580357,
@@ -1928,28 +1312,12 @@ export default Ember.Service.extend({
             "type": "Ride"
         },
         {
-            "distance": 1802.67766655406,
-            "duration": 1492.6284031868,
-            "id": "/fitnessActivities/398190814",
-            "source": "RunKeeper",
-            "start_time": "2014-07-21T13:12:22-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 804.672,
             "duration": 960,
             "id": "/fitnessActivities/397065378",
             "source": "RunKeeper",
             "start_time": "2014-07-20T15:47:28-05:00",
             "type": "Swim"
-        },
-        {
-            "distance": 3100.1511299184,
-            "duration": 4312.37770915031,
-            "id": "/fitnessActivities/397065405",
-            "source": "RunKeeper",
-            "start_time": "2014-07-20T13:25:43-05:00",
-            "type": "Walking"
         },
         {
             "distance": 9726.86021291579,
@@ -2016,54 +1384,6 @@ export default Ember.Service.extend({
             "type": "Ride"
         },
         {
-            "distance": 5082.33913553688,
-            "duration": 7823.72407317162,
-            "id": "/fitnessActivities/394084350",
-            "source": "RunKeeper",
-            "start_time": "2014-07-13T11:17:02-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3013.04695695465,
-            "duration": 3623.51577675343,
-            "id": "/fitnessActivities/394084343",
-            "source": "RunKeeper",
-            "start_time": "2014-07-11T11:22:21-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 5139.14620486106,
-            "duration": 7187.67966747284,
-            "id": "/fitnessActivities/389664336",
-            "source": "RunKeeper",
-            "start_time": "2014-07-08T17:31:49-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1514.85518197821,
-            "duration": 1236.48293012381,
-            "id": "/fitnessActivities/389664333",
-            "source": "RunKeeper",
-            "start_time": "2014-07-07T13:16:43-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3027.43808118344,
-            "duration": 2179.45904356241,
-            "id": "/fitnessActivities/389664328",
-            "source": "RunKeeper",
-            "start_time": "2014-07-07T11:00:35-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1227.79012499333,
-            "duration": 758.4549690485,
-            "id": "/fitnessActivities/389664322",
-            "source": "RunKeeper",
-            "start_time": "2014-07-07T05:29:16-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8477.28092022394,
             "duration": 2852.217,
             "id": "/fitnessActivities/388011806",
@@ -2072,28 +1392,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 515.808189463579,
-            "duration": 834.118914365768,
-            "id": "/fitnessActivities/388011852",
-            "source": "RunKeeper",
-            "start_time": "2014-07-06T12:51:44-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8432.07285749371,
             "duration": 2697.179,
             "id": "/fitnessActivities/385960742",
             "source": "RunKeeper",
             "start_time": "2014-07-03T10:09:05-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 1448.20155397116,
-            "duration": 1372.93373936415,
-            "id": "/fitnessActivities/385934536",
-            "source": "RunKeeper",
-            "start_time": "2014-07-03T09:20:33-05:00",
-            "type": "Walking"
         },
         {
             "distance": 8344.21462447948,
@@ -2110,22 +1414,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-07-01T11:15:20-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 7842.40527710117,
-            "duration": 12128.3420445919,
-            "id": "/fitnessActivities/384635542",
-            "source": "RunKeeper",
-            "start_time": "2014-06-28T08:11:16-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1285.35462190851,
-            "duration": 947.856944203377,
-            "id": "/fitnessActivities/384635537",
-            "source": "RunKeeper",
-            "start_time": "2014-06-27T14:36:54-05:00",
-            "type": "Walking"
         },
         {
             "distance": 6328.75101525229,
@@ -2150,86 +1438,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-06-24T10:54:08-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 3327.37940721513,
-            "duration": 3010.86454612017,
-            "id": "/fitnessActivities/380213605",
-            "source": "RunKeeper",
-            "start_time": "2014-06-23T11:39:26-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1074.78975161354,
-            "duration": 1610.71712613106,
-            "id": "/fitnessActivities/380213597",
-            "source": "RunKeeper",
-            "start_time": "2014-06-21T08:11:04-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1614.07819639778,
-            "duration": 1368.81757253408,
-            "id": "/fitnessActivities/380213589",
-            "source": "RunKeeper",
-            "start_time": "2014-06-21T06:42:52-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 7643.95924826202,
-            "duration": 7134.99921923876,
-            "id": "/fitnessActivities/380213585",
-            "source": "RunKeeper",
-            "start_time": "2014-06-21T04:18:26-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2291.97589033302,
-            "duration": 2186.42296981811,
-            "id": "/fitnessActivities/380213578",
-            "source": "RunKeeper",
-            "start_time": "2014-06-21T03:27:57-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1225.51784222037,
-            "duration": 1686.86898171902,
-            "id": "/fitnessActivities/380213565",
-            "source": "RunKeeper",
-            "start_time": "2014-06-20T12:59:45-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4024.2127909251,
-            "duration": 5018.65035200119,
-            "id": "/fitnessActivities/380213559",
-            "source": "RunKeeper",
-            "start_time": "2014-06-20T11:13:33-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4886.1653894707,
-            "duration": 5866.18831688166,
-            "id": "/fitnessActivities/380213551",
-            "source": "RunKeeper",
-            "start_time": "2014-06-20T05:42:24-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1451.98869192611,
-            "duration": 1843.63714593649,
-            "id": "/fitnessActivities/380213546",
-            "source": "RunKeeper",
-            "start_time": "2014-06-20T04:47:20-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 833.927777679002,
-            "duration": 1046.76421129703,
-            "id": "/fitnessActivities/380213540",
-            "source": "RunKeeper",
-            "start_time": "2014-06-20T03:00:56-05:00",
-            "type": "Walking"
         },
         {
             "distance": 8505.76799902398,
@@ -2280,36 +1488,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 2346.51067688424,
-            "duration": 1839.00809586048,
-            "id": "/fitnessActivities/363759893",
-            "source": "RunKeeper",
-            "start_time": "2014-05-29T11:56:37-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 6595.46622599448,
             "duration": 2090.445,
             "id": "/fitnessActivities/362828209",
             "source": "RunKeeper",
             "start_time": "2014-05-28T11:24:30-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 1801.92023896308,
-            "duration": 2832.29777544737,
-            "id": "/fitnessActivities/362828312",
-            "source": "RunKeeper",
-            "start_time": "2014-05-27T18:29:01-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1415.63216755863,
-            "duration": 1006.79460012913,
-            "id": "/fitnessActivities/362828302",
-            "source": "RunKeeper",
-            "start_time": "2014-05-27T12:47:34-05:00",
-            "type": "Walking"
         },
         {
             "distance": 8430.25998096452,
@@ -2328,30 +1512,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1346.70625677862,
-            "duration": 996.294227540493,
-            "id": "/fitnessActivities/357441515",
-            "source": "RunKeeper",
-            "start_time": "2014-05-19T09:45:07-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3559.15225005779,
-            "duration": 5351.27356773615,
-            "id": "/fitnessActivities/357441510",
-            "source": "RunKeeper",
-            "start_time": "2014-05-18T11:47:29-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4606.67460839572,
-            "duration": 6012.22129225731,
-            "id": "/fitnessActivities/357441501",
-            "source": "RunKeeper",
-            "start_time": "2014-05-18T09:53:40-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8490.80121760175,
             "duration": 2546.494,
             "id": "/fitnessActivities/354441940",
@@ -2366,14 +1526,6 @@ export default Ember.Service.extend({
             "source": "RunKeeper",
             "start_time": "2014-05-13T11:27:19-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 1901.14325338265,
-            "duration": 2043.73443627358,
-            "id": "/fitnessActivities/353129368",
-            "source": "RunKeeper",
-            "start_time": "2014-05-12T11:23:52-05:00",
-            "type": "Walking"
         },
         {
             "distance": 9264.23172587469,
@@ -2400,36 +1552,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1198.25044894476,
-            "duration": 1830.66409730911,
-            "id": "/fitnessActivities/350629672",
-            "source": "RunKeeper",
-            "start_time": "2014-05-07T07:32:10-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8502.03155814502,
             "duration": 2609.348,
             "id": "/fitnessActivities/350629744",
             "source": "RunKeeper",
             "start_time": "2014-05-06T11:38:55-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 2221.53512437104,
-            "duration": 1659.40763068199,
-            "id": "/fitnessActivities/348880648",
-            "source": "RunKeeper",
-            "start_time": "2014-05-05T15:25:05-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4157.52004693918,
-            "duration": 3586.52438479662,
-            "id": "/fitnessActivities/348880642",
-            "source": "RunKeeper",
-            "start_time": "2014-05-05T10:53:07-05:00",
-            "type": "Walking"
         },
         {
             "distance": 6382.37381256175,
@@ -2440,36 +1568,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 880.888288320326,
-            "duration": 1364.20986229181,
-            "id": "/fitnessActivities/347830007",
-            "source": "RunKeeper",
-            "start_time": "2014-05-04T13:43:03-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8457.25678756213,
             "duration": 2693.241,
             "id": "/fitnessActivities/346906380",
             "source": "RunKeeper",
             "start_time": "2014-05-03T10:29:03-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 4839.20487882938,
-            "duration": 5023.32112842798,
-            "id": "/fitnessActivities/346906522",
-            "source": "RunKeeper",
-            "start_time": "2014-05-03T08:26:30-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2512.38731931085,
-            "duration": 1878.46690005064,
-            "id": "/fitnessActivities/346906519",
-            "source": "RunKeeper",
-            "start_time": "2014-05-01T11:34:17-05:00",
-            "type": "Walking"
         },
         {
             "distance": 6160.16726086326,
@@ -2480,92 +1584,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 2350.29781483918,
-            "duration": 2254.27587962151,
-            "id": "/fitnessActivities/342591977",
-            "source": "RunKeeper",
-            "start_time": "2014-04-25T06:51:55-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 523.38246537347,
-            "duration": 809.272674143314,
-            "id": "/fitnessActivities/342591972",
-            "source": "RunKeeper",
-            "start_time": "2014-04-24T22:12:31-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 919.517095460771,
-            "duration": 914.7582269907,
-            "id": "/fitnessActivities/342591969",
-            "source": "RunKeeper",
-            "start_time": "2014-04-24T17:56:10-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1896.59868783671,
-            "duration": 2025.92154824734,
-            "id": "/fitnessActivities/342591966",
-            "source": "RunKeeper",
-            "start_time": "2014-04-23T10:20:25-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2020.81681275893,
-            "duration": 1896.82099753618,
-            "id": "/fitnessActivities/342591961",
-            "source": "RunKeeper",
-            "start_time": "2014-04-22T13:11:59-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1970.82659175365,
-            "duration": 1445.90573567152,
-            "id": "/fitnessActivities/342591956",
-            "source": "RunKeeper",
-            "start_time": "2014-04-21T12:14:55-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 0,
             "duration": 1800,
             "id": "/fitnessActivities/335605829",
             "source": "RunKeeper",
             "start_time": "2014-04-14T18:31:51-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 1619.3801895347,
-            "duration": 1256.84090805054,
-            "id": "/fitnessActivities/335605887",
-            "source": "RunKeeper",
-            "start_time": "2014-04-11T14:42:10-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3891.66296250201,
-            "duration": 3399.0443123579,
-            "id": "/fitnessActivities/335605886",
-            "source": "RunKeeper",
-            "start_time": "2014-04-11T12:06:03-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3796.98451362837,
-            "duration": 3814.47017771006,
-            "id": "/fitnessActivities/335605882",
-            "source": "RunKeeper",
-            "start_time": "2014-04-09T12:01:48-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 896.036840140108,
-            "duration": 915.59033703804,
-            "id": "/fitnessActivities/335605879",
-            "source": "RunKeeper",
-            "start_time": "2014-04-09T07:42:37-05:00",
-            "type": "Walking"
         },
         {
             "distance": 8471.45044230624,
@@ -2576,164 +1600,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 2927.45763917288,
-            "duration": 3041.80875575542,
-            "id": "/fitnessActivities/330516985",
-            "source": "RunKeeper",
-            "start_time": "2014-04-05T14:27:43-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1826.91534946572,
-            "duration": 1600.48504656553,
-            "id": "/fitnessActivities/330516982",
-            "source": "RunKeeper",
-            "start_time": "2014-04-04T09:57:08-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3344.04281421689,
-            "duration": 3072.62845462561,
-            "id": "/fitnessActivities/330516979",
-            "source": "RunKeeper",
-            "start_time": "2014-04-03T11:34:00-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2201.84200700532,
-            "duration": 1602.97419202328,
-            "id": "/fitnessActivities/330516977",
-            "source": "RunKeeper",
-            "start_time": "2014-04-02T13:52:30-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 766.516722080972,
-            "duration": 1273.95422595739,
-            "id": "/fitnessActivities/330516973",
-            "source": "RunKeeper",
-            "start_time": "2014-04-01T13:27:58-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1601.95935494195,
-            "duration": 1704.90795296431,
-            "id": "/fitnessActivities/330516968",
-            "source": "RunKeeper",
-            "start_time": "2014-03-31T14:38:57-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1875.39071528902,
-            "duration": 2482.54662841559,
-            "id": "/fitnessActivities/330516963",
-            "source": "RunKeeper",
-            "start_time": "2014-03-30T16:50:18-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2627.5163131412,
-            "duration": 2092.03652197123,
-            "id": "/fitnessActivities/330516820",
-            "source": "RunKeeper",
-            "start_time": "2014-03-17T11:23:02-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1236.87925608521,
-            "duration": 1305.63717848062,
-            "id": "/fitnessActivities/330516813",
-            "source": "RunKeeper",
-            "start_time": "2014-03-13T13:39:38-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 7110.92943155667,
             "duration": 2264.891,
             "id": "/fitnessActivities/316483941",
             "source": "RunKeeper",
             "start_time": "2014-03-11T05:08:27-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 1705.72693490746,
-            "duration": 1418.81713628769,
-            "id": "/fitnessActivities/316468157",
-            "source": "RunKeeper",
-            "start_time": "2014-03-10T16:30:01-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2216.9905588251,
-            "duration": 3018.34852677584,
-            "id": "/fitnessActivities/316468153",
-            "source": "RunKeeper",
-            "start_time": "2014-03-10T12:05:22-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1843.57875646748,
-            "duration": 1752.19169521332,
-            "id": "/fitnessActivities/316468149",
-            "source": "RunKeeper",
-            "start_time": "2014-03-10T08:47:17-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1434.56785733336,
-            "duration": 1320.92569583654,
-            "id": "/fitnessActivities/316468144",
-            "source": "RunKeeper",
-            "start_time": "2014-03-08T18:03:03-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 981.626157921877,
-            "duration": 890.423540472984,
-            "id": "/fitnessActivities/316468136",
-            "source": "RunKeeper",
-            "start_time": "2014-03-08T16:29:46-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4221.90139217326,
-            "duration": 3479.63935858011,
-            "id": "/fitnessActivities/316468132",
-            "source": "RunKeeper",
-            "start_time": "2014-03-08T11:07:55-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 988.443006240779,
-            "duration": 962.091210186481,
-            "id": "/fitnessActivities/316468128",
-            "source": "RunKeeper",
-            "start_time": "2014-03-07T15:31:21-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 941.482495599455,
-            "duration": 1162.71612143516,
-            "id": "/fitnessActivities/316468124",
-            "source": "RunKeeper",
-            "start_time": "2014-03-07T14:58:58-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2119.28239958751,
-            "duration": 1910.52772849798,
-            "id": "/fitnessActivities/316468120",
-            "source": "RunKeeper",
-            "start_time": "2014-03-07T10:20:27-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2164.72805504685,
-            "duration": 2173.49074691534,
-            "id": "/fitnessActivities/311616659",
-            "source": "RunKeeper",
-            "start_time": "2014-03-01T10:15:44-06:00",
-            "type": "Walking"
         },
         {
             "distance": 10291.5953912919,
@@ -2744,148 +1616,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1584.5385203492,
-            "duration": 1155.07598358393,
-            "id": "/fitnessActivities/311551813",
-            "source": "RunKeeper",
-            "start_time": "2014-03-01T08:40:41-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 853.620895044719,
-            "duration": 1311.53870242834,
-            "id": "/fitnessActivities/311551810",
-            "source": "RunKeeper",
-            "start_time": "2014-02-27T11:53:37-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 905.125971231978,
-            "duration": 973.590282976627,
-            "id": "/fitnessActivities/311551805",
-            "source": "RunKeeper",
-            "start_time": "2014-02-26T13:33:32-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1780.71226641538,
-            "duration": 1503.58209520578,
-            "id": "/fitnessActivities/310274037",
-            "source": "RunKeeper",
-            "start_time": "2014-02-25T10:14:01-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1892.81154988177,
-            "duration": 1254.30496829748,
-            "id": "/fitnessActivities/310274036",
-            "source": "RunKeeper",
-            "start_time": "2014-02-25T05:24:34-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 905.883398822967,
-            "duration": 1510.20532441139,
-            "id": "/fitnessActivities/310274034",
-            "source": "RunKeeper",
-            "start_time": "2014-02-21T16:21:01-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 802.11581885746,
-            "duration": 854.39233738184,
-            "id": "/fitnessActivities/310274030",
-            "source": "RunKeeper",
-            "start_time": "2014-02-21T13:05:43-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2476.03079494338,
-            "duration": 3370.97583788633,
-            "id": "/fitnessActivities/310274028",
-            "source": "RunKeeper",
-            "start_time": "2014-02-20T16:48:24-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2464.66938107854,
-            "duration": 1948.47598487139,
-            "id": "/fitnessActivities/310274027",
-            "source": "RunKeeper",
-            "start_time": "2014-02-20T14:30:38-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3485.68177373185,
-            "duration": 3304.9359395504,
-            "id": "/fitnessActivities/310274024",
-            "source": "RunKeeper",
-            "start_time": "2014-02-20T11:19:57-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1506.52347847732,
-            "duration": 1098.94544351101,
-            "id": "/fitnessActivities/307125914",
-            "source": "RunKeeper",
-            "start_time": "2014-02-19T14:37:50-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 6091.97666914588,
             "duration": 1993.668,
             "id": "/fitnessActivities/307028849",
             "source": "RunKeeper",
             "start_time": "2014-02-19T11:00:27-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 720.313639030637,
-            "duration": 964.635952174664,
-            "id": "/fitnessActivities/307011157",
-            "source": "RunKeeper",
-            "start_time": "2014-02-18T14:05:45-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1764.04885941362,
-            "duration": 1378.78963452578,
-            "id": "/fitnessActivities/307011154",
-            "source": "RunKeeper",
-            "start_time": "2014-02-18T05:21:11-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1984.46028839145,
-            "duration": 2617.19022023678,
-            "id": "/fitnessActivities/307011151",
-            "source": "RunKeeper",
-            "start_time": "2014-02-17T18:32:59-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2198.05486905038,
-            "duration": 1497.06533282995,
-            "id": "/fitnessActivities/307011149",
-            "source": "RunKeeper",
-            "start_time": "2014-02-17T14:33:01-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2290.46103515105,
-            "duration": 2008.30948859453,
-            "id": "/fitnessActivities/307011147",
-            "source": "RunKeeper",
-            "start_time": "2014-02-17T11:39:00-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1056.6114894298,
-            "duration": 983.370442569256,
-            "id": "/fitnessActivities/305565310",
-            "source": "RunKeeper",
-            "start_time": "2014-02-16T09:20:09-06:00",
-            "type": "Walking"
         },
         {
             "distance": 21561.1897986615,
@@ -2896,100 +1632,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 845.289191543839,
-            "duration": 811.844299554825,
-            "id": "/fitnessActivities/305293258",
-            "source": "RunKeeper",
-            "start_time": "2014-02-15T18:48:04-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 869.52687445549,
-            "duration": 1134.3946723938,
-            "id": "/fitnessActivities/305293257",
-            "source": "RunKeeper",
-            "start_time": "2014-02-15T17:43:22-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1342.91911882368,
-            "duration": 1520.50616019964,
-            "id": "/fitnessActivities/305293256",
-            "source": "RunKeeper",
-            "start_time": "2014-02-15T15:48:18-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1664.06841740306,
-            "duration": 1642.93161183596,
-            "id": "/fitnessActivities/305293255",
-            "source": "RunKeeper",
-            "start_time": "2014-02-14T10:31:38-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1678.45954163185,
-            "duration": 1521.14473229647,
-            "id": "/fitnessActivities/305293254",
-            "source": "RunKeeper",
-            "start_time": "2014-02-13T13:14:47-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3438.72126309053,
-            "duration": 2167.95348924398,
-            "id": "/fitnessActivities/305293252",
-            "source": "RunKeeper",
-            "start_time": "2014-02-13T10:45:24-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 983.898440694844,
-            "duration": 816.463030815125,
-            "id": "/fitnessActivities/305293251",
-            "source": "RunKeeper",
-            "start_time": "2014-02-12T14:56:45-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2984.26470849706,
-            "duration": 2267.85471731424,
-            "id": "/fitnessActivities/305293250",
-            "source": "RunKeeper",
-            "start_time": "2014-02-12T11:22:22-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1537.57800970788,
-            "duration": 2283.45880031586,
-            "id": "/fitnessActivities/305293248",
-            "source": "RunKeeper",
-            "start_time": "2014-02-11T17:50:54-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1643.61787244635,
-            "duration": 2164.32607913017,
-            "id": "/fitnessActivities/305293245",
-            "source": "RunKeeper",
-            "start_time": "2014-02-11T12:07:09-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 16928.2342642879,
             "duration": 5481.579,
             "id": "/fitnessActivities/302246909",
             "source": "RunKeeper",
             "start_time": "2014-02-08T05:44:41-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 3145.59678537774,
-            "duration": 1985.43179053068,
-            "id": "/fitnessActivities/302207537",
-            "source": "RunKeeper",
-            "start_time": "2014-02-07T14:28:35-06:00",
-            "type": "Walking"
         },
         {
             "distance": 8294.7593400279,
@@ -3000,52 +1648,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 686.229397436127,
-            "duration": 1147.71175909042,
-            "id": "/fitnessActivities/300321433",
-            "source": "RunKeeper",
-            "start_time": "2014-02-01T15:44:33-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1801.92023896308,
-            "duration": 1568.84587842226,
-            "id": "/fitnessActivities/300321431",
-            "source": "RunKeeper",
-            "start_time": "2014-01-31T11:32:04-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3250.12179293424,
-            "duration": 3580.30300480127,
-            "id": "/fitnessActivities/300321429",
-            "source": "RunKeeper",
-            "start_time": "2014-01-30T11:10:51-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4217.35682662732,
-            "duration": 2975.23265725374,
-            "id": "/fitnessActivities/297531596",
-            "source": "RunKeeper",
-            "start_time": "2014-01-27T11:31:45-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8518.47508902429,
             "duration": 2456.364,
             "id": "/fitnessActivities/297112165",
             "source": "RunKeeper",
             "start_time": "2014-01-26T10:41:06-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 2174.57461372971,
-            "duration": 1609.44851362705,
-            "id": "/fitnessActivities/295818177",
-            "source": "RunKeeper",
-            "start_time": "2014-01-22T13:36:57-06:00",
-            "type": "Walking"
         },
         {
             "distance": 15565.9513160852,
@@ -3056,30 +1664,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1132.35424852871,
-            "duration": 1184.54233527184,
-            "id": "/fitnessActivities/295007044",
-            "source": "RunKeeper",
-            "start_time": "2014-01-21T05:16:24-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2535.11014704053,
-            "duration": 2036.80294555426,
-            "id": "/fitnessActivities/295007043",
-            "source": "RunKeeper",
-            "start_time": "2014-01-20T20:57:35-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2209.41628291521,
-            "duration": 2335.83548080921,
-            "id": "/fitnessActivities/295007042",
-            "source": "RunKeeper",
-            "start_time": "2014-01-20T14:56:08-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 12143.9723418687,
             "duration": 3626.223,
             "id": "/fitnessActivities/293591315",
@@ -3088,84 +1672,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3043.34406059421,
-            "duration": 2671.25431060791,
-            "id": "/fitnessActivities/293559499",
-            "source": "RunKeeper",
-            "start_time": "2014-01-16T11:13:15-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3306.17143466743,
-            "duration": 2888.99445343018,
-            "id": "/fitnessActivities/293559497",
-            "source": "RunKeeper",
-            "start_time": "2014-01-15T10:30:55-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8279.86121222183,
             "duration": 2606.844,
             "id": "/fitnessActivities/291896038",
             "source": "RunKeeper",
             "start_time": "2014-01-14T12:09:37-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 2214.71827605214,
-            "duration": 1439.5502422452,
-            "id": "/fitnessActivities/291605823",
-            "source": "RunKeeper",
-            "start_time": "2014-01-13T14:35:00-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1171.74048326014,
-            "duration": 817.00994938612,
-            "id": "/fitnessActivities/291605822",
-            "source": "RunKeeper",
-            "start_time": "2014-01-13T11:53:47-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1454.26097469908,
-            "duration": 1102.3811930418,
-            "id": "/fitnessActivities/291605821",
-            "source": "RunKeeper",
-            "start_time": "2014-01-13T10:50:27-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2391.1989047526,
-            "duration": 1665.19928985834,
-            "id": "/fitnessActivities/291605820",
-            "source": "RunKeeper",
-            "start_time": "2014-01-10T11:55:52-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1734.50918336504,
-            "duration": 1633.30010473728,
-            "id": "/fitnessActivities/291605819",
-            "source": "RunKeeper",
-            "start_time": "2014-01-10T10:04:05-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3319.80513130524,
-            "duration": 2996.05794233084,
-            "id": "/fitnessActivities/291605817",
-            "source": "RunKeeper",
-            "start_time": "2014-01-09T11:08:16-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2938.06162544673,
-            "duration": 2581.64967751503,
-            "id": "/fitnessActivities/289262054",
-            "source": "RunKeeper",
-            "start_time": "2014-01-08T13:44:32-06:00",
-            "type": "Walking"
         },
         {
             "distance": 8390.83725975886,
@@ -3184,76 +1696,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 2496.48133990008,
-            "duration": 2845.95476746559,
-            "id": "/fitnessActivities/287741491",
-            "source": "RunKeeper",
-            "start_time": "2014-01-04T11:52:05-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2559.34782995218,
-            "duration": 1884.7072917223,
-            "id": "/fitnessActivities/286997971",
-            "source": "RunKeeper",
-            "start_time": "2014-01-03T13:48:31-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8367.86781316084,
             "duration": 2687.944,
             "id": "/fitnessActivities/286868854",
             "source": "RunKeeper",
             "start_time": "2014-01-03T11:01:10-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 1772.3805629145,
-            "duration": 1673.61571550369,
-            "id": "/fitnessActivities/286821050",
-            "source": "RunKeeper",
-            "start_time": "2014-01-02T18:56:50-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3601.56819515318,
-            "duration": 4111.98561161757,
-            "id": "/fitnessActivities/286821046",
-            "source": "RunKeeper",
-            "start_time": "2014-01-02T11:28:41-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2942.60619099266,
-            "duration": 1940.75673413277,
-            "id": "/fitnessActivities/285788455",
-            "source": "RunKeeper",
-            "start_time": "2013-12-31T15:00:31-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1670.12783813097,
-            "duration": 1182.57754087448,
-            "id": "/fitnessActivities/285709461",
-            "source": "RunKeeper",
-            "start_time": "2013-12-31T05:07:15-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1233.09211813026,
-            "duration": 903.485604703426,
-            "id": "/fitnessActivities/285709460",
-            "source": "RunKeeper",
-            "start_time": "2013-12-30T14:37:37-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3057.73518482301,
-            "duration": 2268.97211819887,
-            "id": "/fitnessActivities/285709458",
-            "source": "RunKeeper",
-            "start_time": "2013-12-30T11:24:49-06:00",
-            "type": "Walking"
         },
         {
             "distance": 11849.5673591135,
@@ -3272,68 +1720,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1716.33092118131,
-            "duration": 1290.89182776213,
-            "id": "/fitnessActivities/284212032",
-            "source": "RunKeeper",
-            "start_time": "2013-12-27T05:50:59-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4211.87901507345,
-            "duration": 2430.805,
-            "id": "/fitnessActivities/283936067",
-            "source": "RunKeeper",
-            "start_time": "2013-12-26T12:57:12-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4645.30341553617,
-            "duration": 3876.57664370537,
-            "id": "/fitnessActivities/283186388",
-            "source": "RunKeeper",
-            "start_time": "2013-12-23T11:46:56-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2741.13045178956,
-            "duration": 2769.09120154381,
-            "id": "/fitnessActivities/283186387",
-            "source": "RunKeeper",
-            "start_time": "2013-12-20T13:30:01-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2436.64456021194,
-            "duration": 1788.69451272488,
-            "id": "/fitnessActivities/283186386",
-            "source": "RunKeeper",
-            "start_time": "2013-12-20T11:44:04-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8451.2537877315,
             "duration": 2684.33,
             "id": "/fitnessActivities/281949456",
             "source": "RunKeeper",
             "start_time": "2013-12-19T08:56:41-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 1383.82020873709,
-            "duration": 1593.00855261087,
-            "id": "/fitnessActivities/281800661",
-            "source": "RunKeeper",
-            "start_time": "2013-12-18T14:05:33-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2303.33730419786,
-            "duration": 2153.52664792538,
-            "id": "/fitnessActivities/281800659",
-            "source": "RunKeeper",
-            "start_time": "2013-12-18T12:20:32-06:00",
-            "type": "Walking"
         },
         {
             "distance": 8558.78354661842,
@@ -3344,36 +1736,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1319.43886350302,
-            "duration": 1598.7470921278,
-            "id": "/fitnessActivities/281538014",
-            "source": "RunKeeper",
-            "start_time": "2013-12-17T15:04:48-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 12325.0044596428,
             "duration": 4051.086,
             "id": "/fitnessActivities/280516185",
             "source": "RunKeeper",
             "start_time": "2013-12-14T09:36:12-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 3054.70547445905,
-            "duration": 2038.79611408711,
-            "id": "/fitnessActivities/280321216",
-            "source": "RunKeeper",
-            "start_time": "2013-12-13T12:57:38-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2999.41326031685,
-            "duration": 2624.14951580763,
-            "id": "/fitnessActivities/280321214",
-            "source": "RunKeeper",
-            "start_time": "2013-12-13T10:23:29-06:00",
-            "type": "Walking"
         },
         {
             "distance": 8385.95950942075,
@@ -3384,36 +1752,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3533.39971196416,
-            "duration": 2360.46122825146,
-            "id": "/fitnessActivities/280001251",
-            "source": "RunKeeper",
-            "start_time": "2013-12-11T14:46:10-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8407.16266862752,
             "duration": 2803.79,
             "id": "/fitnessActivities/279409501",
             "source": "RunKeeper",
             "start_time": "2013-12-10T11:12:38-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 871.041729637468,
-            "duration": 1461.10533422232,
-            "id": "/fitnessActivities/280001247",
-            "source": "RunKeeper",
-            "start_time": "2013-12-07T17:02:56-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1711.02892804438,
-            "duration": 2521.23464822769,
-            "id": "/fitnessActivities/280001241",
-            "source": "RunKeeper",
-            "start_time": "2013-12-05T17:05:36-06:00",
-            "type": "Walking"
         },
         {
             "distance": 10581.1187758705,
@@ -3432,30 +1776,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1720.11805913625,
-            "duration": 2186.58283096552,
-            "id": "/fitnessActivities/276984292",
-            "source": "RunKeeper",
-            "start_time": "2013-11-27T11:42:30-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1492.88978183952,
-            "duration": 1109.65002697706,
-            "id": "/fitnessActivities/272520311",
-            "source": "RunKeeper",
-            "start_time": "2013-11-19T22:19:53-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1723.9051970912,
-            "duration": 1466.99865448475,
-            "id": "/fitnessActivities/270649625",
-            "source": "RunKeeper",
-            "start_time": "2013-11-15T10:51:01-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 6629.6372004384,
             "duration": 2305.327,
             "id": "/fitnessActivities/270350441",
@@ -3464,36 +1784,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1701.93979695251,
-            "duration": 1434.97153139114,
-            "id": "/fitnessActivities/270085457",
-            "source": "RunKeeper",
-            "start_time": "2013-11-13T21:44:11-06:00",
-            "type": "Walking"
-        },
-        {
             "distance": 5434.62720288481,
             "duration": 1731.217,
             "id": "/fitnessActivities/269493118",
             "source": "RunKeeper",
             "start_time": "2013-11-12T11:19:46-06:00",
             "type": "Run"
-        },
-        {
-            "distance": 2970.63101185926,
-            "duration": 2227.52005779743,
-            "id": "/fitnessActivities/269172248",
-            "source": "RunKeeper",
-            "start_time": "2013-11-11T14:49:58-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2511.62989171987,
-            "duration": 1717.79464745521,
-            "id": "/fitnessActivities/269057155",
-            "source": "RunKeeper",
-            "start_time": "2013-11-11T10:33:45-06:00",
-            "type": "Walking"
         },
         {
             "distance": 6800.83629582242,
@@ -3512,252 +1808,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3027.43373489959,
-            "duration": 1985.635,
-            "id": "/fitnessActivities/266260459",
-            "source": "RunKeeper",
-            "start_time": "2013-11-04T14:29:01-06:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2343.66697536628,
-            "duration": 1830.85,
-            "id": "/fitnessActivities/263688559",
-            "source": "RunKeeper",
-            "start_time": "2013-10-29T12:20:05-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1534.66400204107,
-            "duration": 988.469,
-            "id": "/fitnessActivities/263213491",
-            "source": "RunKeeper",
-            "start_time": "2013-10-28T11:37:59-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1933.47402767427,
-            "duration": 1297.747,
-            "id": "/fitnessActivities/261966421",
-            "source": "RunKeeper",
-            "start_time": "2013-10-25T11:45:10-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1543.89540794699,
-            "duration": 987.742,
-            "id": "/fitnessActivities/261614262",
-            "source": "RunKeeper",
-            "start_time": "2013-10-24T13:21:21-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1576.82781551511,
-            "duration": 1044.295,
-            "id": "/fitnessActivities/261420301",
-            "source": "RunKeeper",
-            "start_time": "2013-10-24T05:24:57-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1632.90224662326,
-            "duration": 1117.609,
-            "id": "/fitnessActivities/260201285",
-            "source": "RunKeeper",
-            "start_time": "2013-10-21T12:40:07-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 33796.224,
             "duration": 4500,
             "id": "/fitnessActivities/260045278",
             "source": "RunKeeper",
             "start_time": "2013-10-19T13:00:55-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 4099.80947514741,
-            "duration": 3358.1,
-            "id": "/fitnessActivities/258842864",
-            "source": "RunKeeper",
-            "start_time": "2013-10-18T10:44:57-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2361.92267482493,
-            "duration": 1475.096,
-            "id": "/fitnessActivities/257040866",
-            "source": "RunKeeper",
-            "start_time": "2013-10-14T14:11:31-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2177.6678540145,
-            "duration": 1438.876,
-            "id": "/fitnessActivities/256973418",
-            "source": "RunKeeper",
-            "start_time": "2013-10-14T11:57:20-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2870.06857665029,
-            "duration": 1799.449,
-            "id": "/fitnessActivities/254076130",
-            "source": "RunKeeper",
-            "start_time": "2013-10-08T11:24:37-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2559.19773611216,
-            "duration": 1569.422,
-            "id": "/fitnessActivities/246174546",
-            "source": "RunKeeper",
-            "start_time": "2013-09-23T05:32:30-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3021.56075653615,
-            "duration": 1915.84,
-            "id": "/fitnessActivities/243364928",
-            "source": "RunKeeper",
-            "start_time": "2013-09-17T12:27:01-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2956.66520504818,
-            "duration": 1864.691,
-            "id": "/fitnessActivities/242843478",
-            "source": "RunKeeper",
-            "start_time": "2013-09-16T12:33:10-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4192.95946348361,
-            "duration": 2441.704,
-            "id": "/fitnessActivities/240164168",
-            "source": "RunKeeper",
-            "start_time": "2013-09-11T05:10:54-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3618.73326127883,
-            "duration": 2253.386,
-            "id": "/fitnessActivities/239081353",
-            "source": "RunKeeper",
-            "start_time": "2013-09-09T05:20:29-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1629.01760224231,
-            "duration": 1012.608,
-            "id": "/fitnessActivities/232741238",
-            "source": "RunKeeper",
-            "start_time": "2013-08-28T05:28:12-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1578.94089867237,
-            "duration": 1146.956,
-            "id": "/fitnessActivities/232133959",
-            "source": "RunKeeper",
-            "start_time": "2013-08-27T05:30:55-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3212.65703122626,
-            "duration": 2047.182,
-            "id": "/fitnessActivities/231522413",
-            "source": "RunKeeper",
-            "start_time": "2013-08-26T05:03:37-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1638.35382820415,
-            "duration": 1093.394,
-            "id": "/fitnessActivities/229999181",
-            "source": "RunKeeper",
-            "start_time": "2013-08-23T05:58:06-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 4258.31736305435,
-            "duration": 2526.683,
-            "id": "/fitnessActivities/229086727",
-            "source": "RunKeeper",
-            "start_time": "2013-08-21T11:52:39-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 0,
-            "duration": 0,
-            "id": "/fitnessActivities/229055103",
-            "source": "RunKeeper",
-            "start_time": "2013-08-21T11:50:57-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3242.3943188587,
-            "duration": 1949.61,
-            "id": "/fitnessActivities/228261161",
-            "source": "RunKeeper",
-            "start_time": "2013-08-20T05:50:03-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1500.97920671805,
-            "duration": 907.064,
-            "id": "/fitnessActivities/225144928",
-            "source": "RunKeeper",
-            "start_time": "2013-08-14T10:40:54-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1469.86891418285,
-            "duration": 884.705,
-            "id": "/fitnessActivities/225007519",
-            "source": "RunKeeper",
-            "start_time": "2013-08-14T06:09:10-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1578.89844526003,
-            "duration": 1031.583,
-            "id": "/fitnessActivities/224425831",
-            "source": "RunKeeper",
-            "start_time": "2013-08-13T05:24:54-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1596.24617029158,
-            "duration": 988.276,
-            "id": "/fitnessActivities/220665377",
-            "source": "RunKeeper",
-            "start_time": "2013-08-06T06:15:39-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2451.19281953025,
-            "duration": 1717.531,
-            "id": "/fitnessActivities/218742826",
-            "source": "RunKeeper",
-            "start_time": "2013-08-02T12:29:26-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1528.14847539287,
-            "duration": 1014.679,
-            "id": "/fitnessActivities/218561657",
-            "source": "RunKeeper",
-            "start_time": "2013-08-02T05:37:45-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3074.42753193309,
-            "duration": 1764.112,
-            "id": "/fitnessActivities/218221955",
-            "source": "RunKeeper",
-            "start_time": "2013-08-01T11:57:29-05:00",
-            "type": "Walking"
         },
         {
             "distance": 8765.42135848435,
@@ -3768,60 +1824,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1434.57978214819,
-            "duration": 922.528,
-            "id": "/fitnessActivities/218008589",
-            "source": "RunKeeper",
-            "start_time": "2013-08-01T04:23:55-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3018.60593801574,
-            "duration": 1750.455,
-            "id": "/fitnessActivities/217784354",
-            "source": "RunKeeper",
-            "start_time": "2013-07-31T15:48:11-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3061.34007942162,
-            "duration": 1807.975,
-            "id": "/fitnessActivities/217076356",
-            "source": "RunKeeper",
-            "start_time": "2013-07-30T11:46:04-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8759.37059821138,
             "duration": 2733.833,
             "id": "/fitnessActivities/214899670",
             "source": "RunKeeper",
             "start_time": "2013-07-26T05:47:47-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 3086.56726772034,
-            "duration": 1867.957,
-            "id": "/fitnessActivities/214393920",
-            "source": "RunKeeper",
-            "start_time": "2013-07-25T06:16:59-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3024.94510772026,
-            "duration": 1796.93,
-            "id": "/fitnessActivities/213843187",
-            "source": "RunKeeper",
-            "start_time": "2013-07-24T06:36:59-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1593.30053106483,
-            "duration": 1019,
-            "id": "/fitnessActivities/212691344",
-            "source": "RunKeeper",
-            "start_time": "2013-07-22T05:28:01-05:00",
-            "type": "Walking"
         },
         {
             "distance": 3265.65357758038,
@@ -3832,38 +1840,6 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1644.90394084623,
-            "duration": 978.856,
-            "id": "/fitnessActivities/211267816",
-            "source": "RunKeeper",
-            "start_time": "2013-07-19T05:27:28-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2526.46573492597,
-            "duration": 1475.759,
-            "id": "/fitnessActivities/211019233",
-            "source": "RunKeeper",
-            "start_time": "2013-07-18T14:02:37-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1563.64071979061,
-            "duration": 1004.218,
-            "id": "/fitnessActivities/210794361",
-            "source": "RunKeeper",
-            "start_time": "2013-07-18T05:45:20-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2951.84278852107,
-            "duration": 1911.648,
-            "id": "/fitnessActivities/209988679",
-            "source": "RunKeeper",
-            "start_time": "2013-07-16T14:17:02-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 5648.94211130433,
             "duration": 1714.699,
             "id": "/fitnessActivities/209187029",
@@ -3872,44 +1848,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3085.6389991039,
-            "duration": 1879.444,
-            "id": "/fitnessActivities/207973857",
-            "source": "RunKeeper",
-            "start_time": "2013-07-12T12:09:17-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3131.55494894258,
-            "duration": 1963.531,
-            "id": "/fitnessActivities/207816545",
-            "source": "RunKeeper",
-            "start_time": "2013-07-12T05:41:50-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2974.16253955926,
-            "duration": 1800.756,
-            "id": "/fitnessActivities/207489326",
-            "source": "RunKeeper",
-            "start_time": "2013-07-11T12:12:59-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 7094.63516025674,
             "duration": 2238.597,
             "id": "/fitnessActivities/207299382",
             "source": "RunKeeper",
             "start_time": "2013-07-11T05:23:40-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 1506.63100892122,
-            "duration": 971.121,
-            "id": "/fitnessActivities/206367969",
-            "source": "RunKeeper",
-            "start_time": "2013-07-09T11:01:41-05:00",
-            "type": "Walking"
         },
         {
             "distance": 10531.1610622315,
@@ -3928,36 +1872,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3580.43740453043,
-            "duration": 2055.57,
-            "id": "/fitnessActivities/204539025",
-            "source": "RunKeeper",
-            "start_time": "2013-07-05T14:23:09-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3025.87706081169,
-            "duration": 1953.19,
-            "id": "/fitnessActivities/203542063",
-            "source": "RunKeeper",
-            "start_time": "2013-07-03T11:34:34-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 8780.36179207467,
             "duration": 2815.843,
             "id": "/fitnessActivities/200589327",
             "source": "RunKeeper",
             "start_time": "2013-06-27T05:25:06-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 3043.40524238238,
-            "duration": 1786.517,
-            "id": "/fitnessActivities/199296706",
-            "source": "RunKeeper",
-            "start_time": "2013-06-24T12:49:25-05:00",
-            "type": "Walking"
         },
         {
             "distance": 3184.96235198061,
@@ -3976,28 +1896,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 3075.70641229791,
-            "duration": 1987.841,
-            "id": "/fitnessActivities/196169588",
-            "source": "RunKeeper",
-            "start_time": "2013-06-17T15:01:35-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 12198.6668439683,
             "duration": 2239.325,
             "id": "/fitnessActivities/196096480",
             "source": "RunKeeper",
             "start_time": "2013-06-17T12:46:03-05:00",
             "type": "Ride"
-        },
-        {
-            "distance": 4244.06728505137,
-            "duration": 2505.895,
-            "id": "/fitnessActivities/196065076",
-            "source": "RunKeeper",
-            "start_time": "2013-06-17T11:55:17-05:00",
-            "type": "Walking"
         },
         {
             "distance": 4954.31180329142,
@@ -4024,84 +1928,12 @@ export default Ember.Service.extend({
             "type": "Run"
         },
         {
-            "distance": 1412.91702036155,
-            "duration": 1018.354,
-            "id": "/fitnessActivities/193904370",
-            "source": "RunKeeper",
-            "start_time": "2013-06-12T11:52:37-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3770.81643952238,
-            "duration": 2306.798,
-            "id": "/fitnessActivities/193456369",
-            "source": "RunKeeper",
-            "start_time": "2013-06-11T13:16:08-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2042.98680979503,
-            "duration": 1201.223,
-            "id": "/fitnessActivities/193339898",
-            "source": "RunKeeper",
-            "start_time": "2013-06-11T10:21:56-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 2948.88302041939,
-            "duration": 1820.2,
-            "id": "/fitnessActivities/191623387",
-            "source": "RunKeeper",
-            "start_time": "2013-06-07T15:33:59-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1345.72756347716,
-            "duration": 938.657,
-            "id": "/fitnessActivities/191547661",
-            "source": "RunKeeper",
-            "start_time": "2013-06-07T11:33:13-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3114.16111025531,
-            "duration": 1871.333,
-            "id": "/fitnessActivities/191414996",
-            "source": "RunKeeper",
-            "start_time": "2013-06-07T05:07:25-05:00",
-            "type": "Walking"
-        },
-        {
             "distance": 4664.91975660488,
             "duration": 1565.967,
             "id": "/fitnessActivities/191185267",
             "source": "RunKeeper",
             "start_time": "2013-06-06T13:56:26-05:00",
             "type": "Run"
-        },
-        {
-            "distance": 3120.84283472365,
-            "duration": 1804.526,
-            "id": "/fitnessActivities/191099955",
-            "source": "RunKeeper",
-            "start_time": "2013-06-06T11:10:17-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 3055.54191952526,
-            "duration": 1804.926,
-            "id": "/fitnessActivities/190645031",
-            "source": "RunKeeper",
-            "start_time": "2013-06-05T12:43:56-05:00",
-            "type": "Walking"
-        },
-        {
-            "distance": 1544.31394600056,
-            "duration": 919.163,
-            "id": "/fitnessActivities/190574516",
-            "source": "RunKeeper",
-            "start_time": "2013-06-05T10:51:16-05:00",
-            "type": "Walking"
         },
         {
             "distance": 9745.946884155273,
