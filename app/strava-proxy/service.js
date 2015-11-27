@@ -38,6 +38,6 @@ export default Ember.Service.extend({
           console.log('ERROR: ',error);
         });
       }
-    })
+    });
   }
 });
