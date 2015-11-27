@@ -14,6 +14,7 @@
     "qunit": "~1.18.0",
     "bootstrap": "^3",
     "bootswatch-dist": "cyborg",
-    "moment": "momentjs#~2.10.6"
+    "moment": "momentjs#~2.10.6",
+    "lodash": "~3.10.1"
   }
 }

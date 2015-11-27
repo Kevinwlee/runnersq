@@ -4,6 +4,26 @@
       <h1  class="text-primary">Yearly Stats</h1>
     </div>
   </div>
+  <div class="row">
+    {{#each model as |year|}}
+    <div class="col-sm-3">
+      <fieldset>
+        <legend>{{year.year}}</legend>
+
+        <h2>{{year.distance}} <small>m</small></h2>
+        <p>
+          {{year.duration}}
+        </p>
+        <p>
+          <span class="">{{year.number}} runs</span>
+        </p>
+      </fieldset>
+      <br/>
+      <br/>
+      <br/>
+    </div>
+    {{/each}}
+  </div>
 </div>
 
 {{outlet}}

@@ -24,5 +24,6 @@ module.exports = function(defaults) {
   app.import(app.bowerDirectory + '/bootswatch-dist/js/bootstrap.js');
   app.import(app.bowerDirectory + '/bootswatch-dist/css/bootstrap.css');
   app.import('bower_components/moment/min/moment.min.js');
+  app.import('bower_components/lodash/lodash.min.js');
   return app.toTree();
 };
