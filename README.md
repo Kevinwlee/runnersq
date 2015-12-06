@@ -1,7 +1,5 @@
 # RunnersQ
 
-This README outlines the details of collaborating on this Ember application.
-
 RunnersQ is a little app that I've built to learn EmberJS and to play with data visualization.
 
 **Strava**
@@ -15,7 +13,7 @@ You can get your access token by creating an API App at http://labs.strava.com/d
 
 **History**
 
-I also have an array of old activites.  I'm a little lazy, so I just load all this data statically.  You can replace my data with your data in the Array that is returned from `getArchive` in the `history-store` service, or simply return an empty array `[]`.
+I also have an array of old activities.  I'm a little lazy, so I just load all this data statically.  You can replace my data with your data in the Array that is returned from `getArchive` in the `activity-service`, or simply return an empty array `[]`.
 
 ## Prerequisites
 
